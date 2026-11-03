@@ -1,0 +1,3 @@
+# Fixtures de test Forge
+
+`legacy-carnet-zip.json` contient uniquement des données fictives. Sa base provient de `js/core/default-db.js` du ZIP fourni (SHA-256 du fichier source : `ee3c5ab6a922a409ef47d3ef4fef9f9149657a73433dcc082a645f62faa0604f`). Les enregistrements reproduisent les formes écrites par `finishWorkout`, les repas et le suivi de la version originale, notamment les chaînes numériques et un exercice sans série terminée. Ce fichier est synthétique, sans marqueur de version ; ce n’est pas un carnet utilisateur ni un export récolté sur un téléphone. Il vérifie la compatibilité avec le format historique sans dépendre du dossier d’import externe.

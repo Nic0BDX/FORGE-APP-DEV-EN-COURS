@@ -1,0 +1,87 @@
+{
+  "passed": 20,
+  "failed": 0,
+  "scope": "Fixtures temporaires ; aucun vrai ZIP courant publié et aucune tâche réelle clôturée",
+  "checks": [
+    {
+      "name": "Refuse de terminer sans preuve et ne modifie pas les statuts",
+      "status": "passed"
+    },
+    {
+      "name": "Refuse une preuve en échec",
+      "status": "passed"
+    },
+    {
+      "name": "Refuse une tâche inconnue",
+      "status": "passed"
+    },
+    {
+      "name": "Refuse de reculer le jour",
+      "status": "passed"
+    },
+    {
+      "name": "Un checkpoint de progression ne termine aucune tâche",
+      "status": "passed"
+    },
+    {
+      "name": "Point de reprise contient état et prochaine tâche",
+      "status": "passed"
+    },
+    {
+      "name": "CRC et toutes empreintes du manifeste correspondent",
+      "status": "passed"
+    },
+    {
+      "name": "ZIP exclut Git, caches et archives récursives",
+      "status": "passed"
+    },
+    {
+      "name": "Empreinte voisine vérifie le ZIP entier",
+      "status": "passed"
+    },
+    {
+      "name": "Clôture de tâche datée et tâche suivante en cours",
+      "status": "passed"
+    },
+    {
+      "name": "Tableau et feuille de route synchronisés au bon dénominateur",
+      "status": "passed"
+    },
+    {
+      "name": "Journal et README contiennent le checkpoint",
+      "status": "passed"
+    },
+    {
+      "name": "Ne refait pas une tâche terminée, ZIP précédent intact",
+      "status": "passed"
+    },
+    {
+      "name": "Refuse de fermer une journée avec tâche en cours",
+      "status": "passed"
+    },
+    {
+      "name": "Clôture conserve archive quotidienne exacte",
+      "status": "passed"
+    },
+    {
+      "name": "Une archive quotidienne existante ne peut être écrasée",
+      "status": "passed"
+    },
+    {
+      "name": "Reprise sans transaction ne modifie rien",
+      "status": "passed"
+    },
+    {
+      "name": "Interruption conserve un marqueur et le ZIP livré précédent",
+      "status": "passed"
+    },
+    {
+      "name": "Reprise termine la transaction sans répéter la tâche",
+      "status": "passed"
+    },
+    {
+      "name": "Archives précédentes conservées après reprise",
+      "status": "passed"
+    }
+  ]
+}

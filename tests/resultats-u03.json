@@ -1,0 +1,409 @@
+{
+  "task": "U03",
+  "startedAt": "2026-11-03T09:18:54.308Z",
+  "status": "completed",
+  "checks": [
+    {
+      "name": "U03 — Une longue galerie conserve les 24 souvenirs",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "U03 — Photos light 320px : actions sans collision et légende sous l’image",
+      "status": "passed",
+      "detail": "{\"overlap\":false,\"tagWidth\":76,\"tagHeight\":44,\"deleteWidth\":44,\"deleteHeight\":44,\"captionOverImage\":false}"
+    },
+    {
+      "name": "U03 — Galerie light 320px : aucun débordement ni petite cible",
+      "status": "passed",
+      "detail": "{\"width\":320,\"scrollWidth\":320,\"small\":[]}"
+    },
+    {
+      "name": "U03 — Photos light 390px : actions sans collision et légende sous l’image",
+      "status": "passed",
+      "detail": "{\"overlap\":false,\"tagWidth\":107,\"tagHeight\":44,\"deleteWidth\":44,\"deleteHeight\":44,\"captionOverImage\":false}"
+    },
+    {
+      "name": "U03 — Galerie light 390px : aucun débordement ni petite cible",
+      "status": "passed",
+      "detail": "{\"width\":390,\"scrollWidth\":390,\"small\":[]}"
+    },
+    {
+      "name": "U03 — Photos dark 320px : actions sans collision et légende sous l’image",
+      "status": "passed",
+      "detail": "{\"overlap\":false,\"tagWidth\":76,\"tagHeight\":44,\"deleteWidth\":44,\"deleteHeight\":44,\"captionOverImage\":false}"
+    },
+    {
+      "name": "U03 — Galerie dark 320px : aucun débordement ni petite cible",
+      "status": "passed",
+      "detail": "{\"width\":320,\"scrollWidth\":320,\"small\":[]}"
+    },
+    {
+      "name": "U03 — Photos dark 390px : actions sans collision et légende sous l’image",
+      "status": "passed",
+      "detail": "{\"overlap\":false,\"tagWidth\":107,\"tagHeight\":44,\"deleteWidth\":44,\"deleteHeight\":44,\"captionOverImage\":false}"
+    },
+    {
+      "name": "U03 — Galerie dark 390px : aucun débordement ni petite cible",
+      "status": "passed",
+      "detail": "{\"width\":390,\"scrollWidth\":390,\"small\":[]}"
+    },
+    {
+      "name": "U03 — Le bouton catégorie est réellement cliquable à320px",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "U03 — Le filtre affiche uniquement la photo recatégorisée",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "U03 — Cliquer l’image conserve l’édition de légende",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "U03 — Le bouton suppression retire uniquement la photo visée",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "U03 — Une catégorie vide reste explicite et permet de revenir à Tout",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "U03 — Revenir à Tout retrouve les autres souvenirs",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "U03 — Une longue liste conserve les 18 repas",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "U03 — La case whey possède un libellé associé englobant et une cible de44px",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "U03 — Cliquer près du bord du libellé bascule réellement la case whey",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "U03 — Le choix whey basculé par son libellé reste enregistrable",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "U03 — Nutrition light 320px : nom lisible et macros sur leur propre ligne",
+      "status": "passed",
+      "detail": "{\"nameWidth\":160,\"macrosBelow\":true,\"textClipped\":false,\"deleteWidth\":44,\"deleteHeight\":44}"
+    },
+    {
+      "name": "U03 — Nutrition light 320px : aucun débordement ni petite cible",
+      "status": "passed",
+      "detail": "{\"width\":320,\"scrollWidth\":320,\"small\":[]}"
+    },
+    {
+      "name": "U03 — Nutrition light 390px : nom lisible et macros sur leur propre ligne",
+      "status": "passed",
+      "detail": "{\"nameWidth\":214,\"macrosBelow\":true,\"textClipped\":false,\"deleteWidth\":44,\"deleteHeight\":44}"
+    },
+    {
+      "name": "U03 — Nutrition light 390px : aucun débordement ni petite cible",
+      "status": "passed",
+      "detail": "{\"width\":390,\"scrollWidth\":390,\"small\":[]}"
+    },
+    {
+      "name": "U03 — Nutrition dark 320px : nom lisible et macros sur leur propre ligne",
+      "status": "passed",
+      "detail": "{\"nameWidth\":160,\"macrosBelow\":true,\"textClipped\":false,\"deleteWidth\":44,\"deleteHeight\":44}"
+    },
+    {
+      "name": "U03 — Nutrition dark 320px : aucun débordement ni petite cible",
+      "status": "passed",
+      "detail": "{\"width\":320,\"scrollWidth\":320,\"small\":[]}"
+    },
+    {
+      "name": "U03 — Nutrition dark 390px : nom lisible et macros sur leur propre ligne",
+      "status": "passed",
+      "detail": "{\"nameWidth\":214,\"macrosBelow\":true,\"textClipped\":false,\"deleteWidth\":44,\"deleteHeight\":44}"
+    },
+    {
+      "name": "U03 — Nutrition dark 390px : aucun débordement ni petite cible",
+      "status": "passed",
+      "detail": "{\"width\":390,\"scrollWidth\":390,\"small\":[]}"
+    },
+    {
+      "name": "U03 — La suppression d’un repas reste accessible à320px",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "U03 — Comparaison light 320px : photo entièrement visible et légende dessous",
+      "status": "passed",
+      "detail": "[{\"under\":true,\"inFigure\":true,\"photoHeight\":182.65625},{\"under\":true,\"inFigure\":true,\"photoHeight\":182.65625}]"
+    },
+    {
+      "name": "U03 — Comparaison light 320px : sélecteurs accessibles sans débordement",
+      "status": "passed",
+      "detail": "{\"width\":320,\"scrollWidth\":320,\"small\":[]}"
+    },
+    {
+      "name": "U03 — Comparaison light 390px : photo entièrement visible et légende dessous",
+      "status": "passed",
+      "detail": "[{\"under\":true,\"inFigure\":true,\"photoHeight\":222.65625},{\"under\":true,\"inFigure\":true,\"photoHeight\":222.65625}]"
+    },
+    {
+      "name": "U03 — Comparaison light 390px : sélecteurs accessibles sans débordement",
+      "status": "passed",
+      "detail": "{\"width\":390,\"scrollWidth\":390,\"small\":[]}"
+    },
+    {
+      "name": "U03 — Comparaison dark 320px : photo entièrement visible et légende dessous",
+      "status": "passed",
+      "detail": "[{\"under\":true,\"inFigure\":true,\"photoHeight\":182.65625},{\"under\":true,\"inFigure\":true,\"photoHeight\":182.65625}]"
+    },
+    {
+      "name": "U03 — Comparaison dark 320px : sélecteurs accessibles sans débordement",
+      "status": "passed",
+      "detail": "{\"width\":320,\"scrollWidth\":320,\"small\":[]}"
+    },
+    {
+      "name": "U03 — Comparaison dark 390px : photo entièrement visible et légende dessous",
+      "status": "passed",
+      "detail": "[{\"under\":true,\"inFigure\":true,\"photoHeight\":222.65625},{\"under\":true,\"inFigure\":true,\"photoHeight\":222.65625}]"
+    },
+    {
+      "name": "U03 — Comparaison dark 390px : sélecteurs accessibles sans débordement",
+      "status": "passed",
+      "detail": "{\"width\":390,\"scrollWidth\":390,\"small\":[]}"
+    },
+    {
+      "name": "U03 — Calendrier light 320px : champs de dates et boutons restent accessibles",
+      "status": "passed",
+      "detail": "{\"width\":320,\"scrollWidth\":320,\"small\":[]}"
+    },
+    {
+      "name": "U03 — Calendrier light 390px : champs de dates et boutons restent accessibles",
+      "status": "passed",
+      "detail": "{\"width\":390,\"scrollWidth\":390,\"small\":[]}"
+    },
+    {
+      "name": "U03 — Calendrier dark 320px : champs de dates et boutons restent accessibles",
+      "status": "passed",
+      "detail": "{\"width\":320,\"scrollWidth\":320,\"small\":[]}"
+    },
+    {
+      "name": "U03 — Calendrier dark 390px : champs de dates et boutons restent accessibles",
+      "status": "passed",
+      "detail": "{\"width\":390,\"scrollWidth\":390,\"small\":[]}"
+    },
+    {
+      "name": "U03 — État vide program lisible à320px",
+      "status": "passed",
+      "detail": "{\"width\":320,\"scrollWidth\":320,\"small\":[]}"
+    },
+    {
+      "name": "U03 — État vide nutrition lisible à320px",
+      "status": "passed",
+      "detail": "{\"width\":320,\"scrollWidth\":320,\"small\":[]}"
+    },
+    {
+      "name": "U03 — État vide memories lisible à320px",
+      "status": "passed",
+      "detail": "{\"width\":320,\"scrollWidth\":320,\"small\":[]}"
+    },
+    {
+      "name": "U03 — État vide beforeafter lisible à320px",
+      "status": "passed",
+      "detail": "{\"width\":320,\"scrollWidth\":320,\"small\":[]}"
+    },
+    {
+      "name": "U03 — État vide progress lisible à320px",
+      "status": "passed",
+      "detail": "{\"width\":320,\"scrollWidth\":320,\"small\":[]}"
+    },
+    {
+      "name": "U03 — Aucune exception JavaScript",
+      "status": "passed",
+      "detail": "[]"
+    },
+    {
+      "name": "U03 — Aucune ressource applicative en échec",
+      "status": "passed",
+      "detail": "[]"
+    }
+  ],
+  "pageErrors": [],
+  "requestFailures": [],
+  "states": [
+    {
+      "screen": "souvenirs",
+      "theme": "light",
+      "width": 320,
+      "dimensions": {
+        "width": 320,
+        "scrollWidth": 320,
+        "small": []
+      }
+    },
+    {
+      "screen": "souvenirs",
+      "theme": "light",
+      "width": 390,
+      "dimensions": {
+        "width": 390,
+        "scrollWidth": 390,
+        "small": []
+      }
+    },
+    {
+      "screen": "souvenirs",
+      "theme": "dark",
+      "width": 320,
+      "dimensions": {
+        "width": 320,
+        "scrollWidth": 320,
+        "small": []
+      }
+    },
+    {
+      "screen": "souvenirs",
+      "theme": "dark",
+      "width": 390,
+      "dimensions": {
+        "width": 390,
+        "scrollWidth": 390,
+        "small": []
+      }
+    },
+    {
+      "screen": "nutrition",
+      "theme": "light",
+      "width": 320,
+      "dimensions": {
+        "width": 320,
+        "scrollWidth": 320,
+        "small": []
+      }
+    },
+    {
+      "screen": "nutrition",
+      "theme": "light",
+      "width": 390,
+      "dimensions": {
+        "width": 390,
+        "scrollWidth": 390,
+        "small": []
+      }
+    },
+    {
+      "screen": "nutrition",
+      "theme": "dark",
+      "width": 320,
+      "dimensions": {
+        "width": 320,
+        "scrollWidth": 320,
+        "small": []
+      }
+    },
+    {
+      "screen": "nutrition",
+      "theme": "dark",
+      "width": 390,
+      "dimensions": {
+        "width": 390,
+        "scrollWidth": 390,
+        "small": []
+      }
+    },
+    {
+      "screen": "comparaison",
+      "theme": "light",
+      "width": 320,
+      "dimensions": {
+        "width": 320,
+        "scrollWidth": 320,
+        "small": []
+      }
+    },
+    {
+      "screen": "comparaison",
+      "theme": "light",
+      "width": 390,
+      "dimensions": {
+        "width": 390,
+        "scrollWidth": 390,
+        "small": []
+      }
+    },
+    {
+      "screen": "comparaison",
+      "theme": "dark",
+      "width": 320,
+      "dimensions": {
+        "width": 320,
+        "scrollWidth": 320,
+        "small": []
+      }
+    },
+    {
+      "screen": "comparaison",
+      "theme": "dark",
+      "width": 390,
+      "dimensions": {
+        "width": 390,
+        "scrollWidth": 390,
+        "small": []
+      }
+    },
+    {
+      "screen": "calendrier",
+      "theme": "light",
+      "width": 320,
+      "dimensions": {
+        "width": 320,
+        "scrollWidth": 320,
+        "small": []
+      }
+    },
+    {
+      "screen": "calendrier",
+      "theme": "light",
+      "width": 390,
+      "dimensions": {
+        "width": 390,
+        "scrollWidth": 390,
+        "small": []
+      }
+    },
+    {
+      "screen": "calendrier",
+      "theme": "dark",
+      "width": 320,
+      "dimensions": {
+        "width": 320,
+        "scrollWidth": 320,
+        "small": []
+      }
+    },
+    {
+      "screen": "calendrier",
+      "theme": "dark",
+      "width": 390,
+      "dimensions": {
+        "width": 390,
+        "scrollWidth": 390,
+        "small": []
+      }
+    }
+  ],
+  "passed": 47,
+  "failed": 0,
+  "completedAt": "2026-11-03T09:18:56.447Z"
+}

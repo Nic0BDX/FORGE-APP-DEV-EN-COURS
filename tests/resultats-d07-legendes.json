@@ -1,0 +1,146 @@
+{
+  "task": "D07-légendes",
+  "startedAt": "2026-11-03T09:09:14.991Z",
+  "checks": [
+    {
+      "name": "Légendes complètes sans poids : light 320px",
+      "status": "passed",
+      "geometry": [
+        {
+          "figureHeight": 184,
+          "captionHeight": 128,
+          "captionTop": 56,
+          "captionBottom": 0,
+          "text": "Ajoutée le 10 février 2026Aucun poids enregistré à cette date ou avant.",
+          "clipped": false
+        },
+        {
+          "figureHeight": 184,
+          "captionHeight": 128,
+          "captionTop": 56,
+          "captionBottom": 0,
+          "text": "Ajoutée le 20 février 2026Aucun poids enregistré à cette date ou avant.",
+          "clipped": false
+        }
+      ]
+    },
+    {
+      "name": "Légendes complètes sans poids : light 390px",
+      "status": "passed",
+      "geometry": [
+        {
+          "figureHeight": 225.328125,
+          "captionHeight": 110,
+          "captionTop": 115.328125,
+          "captionBottom": 0,
+          "text": "Ajoutée le 10 février 2026Aucun poids enregistré à cette date ou avant.",
+          "clipped": false
+        },
+        {
+          "figureHeight": 225.328125,
+          "captionHeight": 110,
+          "captionTop": 115.328125,
+          "captionBottom": 0,
+          "text": "Ajoutée le 20 février 2026Aucun poids enregistré à cette date ou avant.",
+          "clipped": false
+        }
+      ]
+    },
+    {
+      "name": "Légendes complètes sans poids : light 768px",
+      "status": "passed",
+      "geometry": [
+        {
+          "figureHeight": 458.65625,
+          "captionHeight": 74,
+          "captionTop": 384.65625,
+          "captionBottom": 0,
+          "text": "Ajoutée le 10 février 2026Aucun poids enregistré à cette date ou avant.",
+          "clipped": false
+        },
+        {
+          "figureHeight": 458.65625,
+          "captionHeight": 74,
+          "captionTop": 384.65625,
+          "captionBottom": 0,
+          "text": "Ajoutée le 20 février 2026Aucun poids enregistré à cette date ou avant.",
+          "clipped": false
+        }
+      ]
+    },
+    {
+      "name": "Légendes complètes sans poids : dark 320px",
+      "status": "passed",
+      "geometry": [
+        {
+          "figureHeight": 184,
+          "captionHeight": 128,
+          "captionTop": 56,
+          "captionBottom": 0,
+          "text": "Ajoutée le 10 février 2026Aucun poids enregistré à cette date ou avant.",
+          "clipped": false
+        },
+        {
+          "figureHeight": 184,
+          "captionHeight": 128,
+          "captionTop": 56,
+          "captionBottom": 0,
+          "text": "Ajoutée le 20 février 2026Aucun poids enregistré à cette date ou avant.",
+          "clipped": false
+        }
+      ]
+    },
+    {
+      "name": "Légendes complètes sans poids : dark 390px",
+      "status": "passed",
+      "geometry": [
+        {
+          "figureHeight": 225.328125,
+          "captionHeight": 110,
+          "captionTop": 115.328125,
+          "captionBottom": 0,
+          "text": "Ajoutée le 10 février 2026Aucun poids enregistré à cette date ou avant.",
+          "clipped": false
+        },
+        {
+          "figureHeight": 225.328125,
+          "captionHeight": 110,
+          "captionTop": 115.328125,
+          "captionBottom": 0,
+          "text": "Ajoutée le 20 février 2026Aucun poids enregistré à cette date ou avant.",
+          "clipped": false
+        }
+      ]
+    },
+    {
+      "name": "Légendes complètes sans poids : dark 768px",
+      "status": "passed",
+      "geometry": [
+        {
+          "figureHeight": 458.65625,
+          "captionHeight": 74,
+          "captionTop": 384.65625,
+          "captionBottom": 0,
+          "text": "Ajoutée le 10 février 2026Aucun poids enregistré à cette date ou avant.",
+          "clipped": false
+        },
+        {
+          "figureHeight": 458.65625,
+          "captionHeight": 74,
+          "captionTop": 384.65625,
+          "captionBottom": 0,
+          "text": "Ajoutée le 20 février 2026Aucun poids enregistré à cette date ou avant.",
+          "clipped": false
+        }
+      ]
+    },
+    {
+      "name": "Aucune exception JavaScript",
+      "status": "passed"
+    }
+  ],
+  "pageErrors": [],
+  "completedAt": "2026-11-03T09:09:15.651Z",
+  "passed": 7,
+  "failed": 0
+}

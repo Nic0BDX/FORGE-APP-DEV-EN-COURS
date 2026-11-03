@@ -1,0 +1,264 @@
+{
+  "task": "D05",
+  "startedAt": "2026-10-31T13:32:25.593Z",
+  "baseURL": "http://127.0.0.1:8080",
+  "browser": "154.0.8037.57",
+  "status": "completed",
+  "checks": [
+    {
+      "name": "D05 — Terminer sans série validée ne crée ni séance ni XP",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D05 — Rechargement propose une reprise explicite sans démarrer la séance",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D05 — Une autre séance ne remplace pas le brouillon sans choix",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D05 — Modale anti-écrasement utilisable à 320px",
+      "status": "passed",
+      "detail": "{\"width\":320,\"scrollWidth\":320,\"smallButtons\":[]}"
+    },
+    {
+      "name": "D05 — Modale anti-écrasement utilisable à 375px",
+      "status": "passed",
+      "detail": "{\"width\":375,\"scrollWidth\":375,\"smallButtons\":[]}"
+    },
+    {
+      "name": "D05 — Fermer le choix conserve le brouillon",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D05 — Reprendre depuis le choix ouvre la séance précédente",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D05 — Carte de reprise light 320px sans débordement",
+      "status": "passed",
+      "detail": "{\"width\":320,\"scrollWidth\":320,\"smallButtons\":[]}"
+    },
+    {
+      "name": "D05 — Boutons de reprise light 320px atteignables (44px)",
+      "status": "passed",
+      "detail": "[]"
+    },
+    {
+      "name": "D05 — Carte de reprise light 375px sans débordement",
+      "status": "passed",
+      "detail": "{\"width\":375,\"scrollWidth\":375,\"smallButtons\":[]}"
+    },
+    {
+      "name": "D05 — Boutons de reprise light 375px atteignables (44px)",
+      "status": "passed",
+      "detail": "[]"
+    },
+    {
+      "name": "D05 — Carte de reprise light 390px sans débordement",
+      "status": "passed",
+      "detail": "{\"width\":390,\"scrollWidth\":390,\"smallButtons\":[]}"
+    },
+    {
+      "name": "D05 — Boutons de reprise light 390px atteignables (44px)",
+      "status": "passed",
+      "detail": "[]"
+    },
+    {
+      "name": "D05 — Carte de reprise light 768px sans débordement",
+      "status": "passed",
+      "detail": "{\"width\":768,\"scrollWidth\":768,\"smallButtons\":[]}"
+    },
+    {
+      "name": "D05 — Carte de reprise dark 320px sans débordement",
+      "status": "passed",
+      "detail": "{\"width\":320,\"scrollWidth\":320,\"smallButtons\":[]}"
+    },
+    {
+      "name": "D05 — Boutons de reprise dark 320px atteignables (44px)",
+      "status": "passed",
+      "detail": "[]"
+    },
+    {
+      "name": "D05 — Carte de reprise dark 375px sans débordement",
+      "status": "passed",
+      "detail": "{\"width\":375,\"scrollWidth\":375,\"smallButtons\":[]}"
+    },
+    {
+      "name": "D05 — Boutons de reprise dark 375px atteignables (44px)",
+      "status": "passed",
+      "detail": "[]"
+    },
+    {
+      "name": "D05 — Carte de reprise dark 390px sans débordement",
+      "status": "passed",
+      "detail": "{\"width\":390,\"scrollWidth\":390,\"smallButtons\":[]}"
+    },
+    {
+      "name": "D05 — Boutons de reprise dark 390px atteignables (44px)",
+      "status": "passed",
+      "detail": "[]"
+    },
+    {
+      "name": "D05 — Carte de reprise dark 768px sans débordement",
+      "status": "passed",
+      "detail": "{\"width\":768,\"scrollWidth\":768,\"smallButtons\":[]}"
+    },
+    {
+      "name": "D05 — Charges, répétitions et RPE non validés conservés",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D05 — Échec de sauvegarde pendant saisie annoncé sans fausse confirmation",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D05 — Déconnexion bloquée tant que la saisie ne peut pas être sauvegardée",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D05 — Saisie peut être sauvegardée après résolution du quota",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D05 — Série cochée restaurée",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D05 — Repos en pause conservé malgré recharge et attente",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D05 — Ajout de quinze secondes conservé en pause",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D05 — Repos actif tient compte du temps passé hors séance",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D05 — La reprise testée possède bien un brouillon persistant",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D05 — Échec de sauvegarde finale ne perd ni séance active ni carnet",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D05 — Fin répétée enregistre une seule séance avec le bon volume",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D05 — Historique et brouillon utilisent la même identité de séance",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D05 — Fin efface le brouillon du compte",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D05 — Recharger après fin ne duplique ni séance ni XP",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D05 — Un brouillon déjà terminé ne peut pas être rejoué",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D05 — Un autre compte ne voit pas le brouillon du premier",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D05 — Le compte A retrouve uniquement ses saisies",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D05 — Annulation supprime le brouillon sans écrire l’historique",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D05 — Annuler A ne modifie pas le brouillon B",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D05 — Refus de charge négative",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D05 — Refus de zéro répétition",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D05 — Refus de répétitions fractionnaires",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D05 — Refus de RPE hors intervalle",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D05 — Charge nulle et RPE facultatif restent acceptés",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D05 — Abandon depuis la carte retire définitivement le brouillon",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D05 — Effacement du carnet nettoie aussi sa séance en cours",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "Aucune exception JavaScript pendant les scénarios",
+      "status": "passed",
+      "detail": "[]"
+    },
+    {
+      "name": "Aucune ressource applicative en échec",
+      "status": "passed",
+      "detail": "[]"
+    }
+  ],
+  "pageErrors": [],
+  "requestFailures": [],
+  "screenshots": [
+    "d05-choix-brouillon.png",
+    "d05-carte-reprise.png",
+    "d05-seance-reprise.png"
+  ],
+  "passed": 49,
+  "failed": 0,
+  "completedAt": "2026-10-31T13:32:36.825Z"
+}

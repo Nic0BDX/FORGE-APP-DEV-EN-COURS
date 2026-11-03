@@ -1,0 +1,369 @@
+{
+  "task": "D06",
+  "startedAt": "2026-11-03T08:56:04.106Z",
+  "baseURL": "http://127.0.0.1:8080",
+  "browser": "154.0.8037.57",
+  "status": "completed",
+  "checks": [
+    {
+      "name": "D06 — Refus sans perte : JSON syntaxiquement invalide",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D06 — Fichier dangereux refusé avant confirmation : JSON syntaxiquement invalide",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D06 — Refus sans perte : racine tableau",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D06 — Fichier dangereux refusé avant confirmation : racine tableau",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D06 — Refus sans perte : racine null",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D06 — Fichier dangereux refusé avant confirmation : racine null",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D06 — Refus sans perte : tableau de séances remplacé par chaîne",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D06 — Fichier dangereux refusé avant confirmation : tableau de séances remplacé par chaîne",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D06 — Refus sans perte : séance de type null",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D06 — Fichier dangereux refusé avant confirmation : séance de type null",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D06 — Refus sans perte : mesure de type null",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D06 — Fichier dangereux refusé avant confirmation : mesure de type null",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D06 — Refus sans perte : date de poids inexistante",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D06 — Fichier dangereux refusé avant confirmation : date de poids inexistante",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D06 — Refus sans perte : identifiants programmes en double",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D06 — Fichier dangereux refusé avant confirmation : identifiants programmes en double",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D06 — Refus sans perte : nombre non fini",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D06 — Fichier dangereux refusé avant confirmation : nombre non fini",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D06 — Refus sans perte : prototype racine interdit",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D06 — Fichier dangereux refusé avant confirmation : prototype racine interdit",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D06 — Refus sans perte : prototype imbriqué interdit",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D06 — Fichier dangereux refusé avant confirmation : prototype imbriqué interdit",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D06 — Refus sans perte : identifiant programme contenant du code",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D06 — Fichier dangereux refusé avant confirmation : identifiant programme contenant du code",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D06 — Refus sans perte : photo avec attribut HTML injecté",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D06 — Fichier dangereux refusé avant confirmation : photo avec attribut HTML injecté",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D06 — Refus sans perte : version de sauvegarde future",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D06 — Fichier dangereux refusé avant confirmation : version de sauvegarde future",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D06 — Refus sans perte : profondeur excessive",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D06 — Fichier dangereux refusé avant confirmation : profondeur excessive",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D06 — Refus sans perte : fichier dépassant 16 MiB",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D06 — Fichier dangereux refusé avant confirmation : fichier dépassant 16 MiB",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D06 — Imports refusés préservent aussi le brouillon actif",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D06 — Référence à un ancien programme annoncée avant import",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D06 — Ancien format valide attend une confirmation sans modifier le carnet",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D06 — Confirmation import accessible à 320px",
+      "status": "passed",
+      "detail": "{\"width\":320,\"scrollWidth\":320,\"smallButtons\":[]}"
+    },
+    {
+      "name": "D06 — Confirmation import accessible à 375px",
+      "status": "passed",
+      "detail": "{\"width\":375,\"scrollWidth\":375,\"smallButtons\":[]}"
+    },
+    {
+      "name": "D06 — Confirmation import accessible à 390px",
+      "status": "passed",
+      "detail": "{\"width\":390,\"scrollWidth\":390,\"smallButtons\":[]}"
+    },
+    {
+      "name": "D06 — Annuler un import préserve carnet et brouillon",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D06 — Quota pendant import préserve ancien carnet et brouillon",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D06 — Ancien carnet migré conserve programmes et repas",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D06 — Champs supplémentaires compatibles conservés sans perte",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D06 — Champs absents complétés avec valeurs par défaut",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D06 — Import confirmé nettoie seulement le brouillon du compte courant",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D06 — Import confirmé persiste au rechargement",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D06 — Une nouvelle séance après import reste reprenable",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D06 — Export versionné garde les champs du carnet",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D06 — Champs supplémentaires conservés dans l’export",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D06 — Export ne contient aucun compte ou mot de passe",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D06 — Modification locale avant restauration réellement effectuée",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D06 — Aller-retour export/import restaure le repas supprimé",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D06 — Changement de compte entre préparation et confirmation bloque le remplacement",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D06 — Annuler un effacement ne modifie aucune donnée",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D06 — Échec d’effacement conserve carnet et brouillon",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D06 — Effacement confirmé nettoie le compte courant et garde l’autre",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D06 — Une nouvelle séance après effacement reste reprenable",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D06 — JSON local incomplet affiche la récupération sans écraser le brut",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D06 — Navigation protégée préserve JSON local incomplet",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D06 — Panneau récupération utilisable à 320px : JSON local incomplet",
+      "status": "passed",
+      "detail": "{\"width\":320,\"scrollWidth\":320,\"smallButtons\":[]}"
+    },
+    {
+      "name": "D06 — Export de secours préserve chaque caractère : JSON local incomplet",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D06 — Autre compte utilisable pendant la récupération : JSON local incomplet",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D06 — Restauration confirmée lève la protection : JSON local incomplet",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D06 — structure locale invalide affiche la récupération sans écraser le brut",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D06 — Navigation protégée préserve structure locale invalide",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D06 — Panneau récupération utilisable à 320px : structure locale invalide",
+      "status": "passed",
+      "detail": "{\"width\":320,\"scrollWidth\":320,\"smallButtons\":[]}"
+    },
+    {
+      "name": "D06 — Export de secours préserve chaque caractère : structure locale invalide",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D06 — Autre compte utilisable pendant la récupération : structure locale invalide",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D06 — Restauration confirmée lève la protection : structure locale invalide",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "Aucune exception JavaScript pendant les scénarios",
+      "status": "passed",
+      "detail": "[]"
+    },
+    {
+      "name": "Aucune ressource applicative en échec",
+      "status": "passed",
+      "detail": "[]"
+    }
+  ],
+  "pageErrors": [],
+  "requestFailures": [],
+  "screenshots": [
+    "d06-confirmation-import.png",
+    "d06-recuperation-json.png",
+    "d06-recuperation-schema.png"
+  ],
+  "passed": 70,
+  "failed": 0,
+  "completedAt": "2026-11-03T08:56:24.477Z"
+}

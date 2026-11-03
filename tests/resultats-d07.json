@@ -1,0 +1,322 @@
+{
+  "task": "D07",
+  "startedAt": "2026-11-03T09:08:10.213Z",
+  "baseURL": "http://127.0.0.1:8080",
+  "status": "completed",
+  "checks": [
+    {
+      "name": "D07 — Sans photo, le parcours propose de prendre une photo",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D07 — Une seule photo ne produit pas de fausse comparaison",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D07 — Les photos non triées commencent par la plus ancienne et finissent par la plus récente",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D07 — Choisir les photos met à jour les images affichées",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D07 — Poids non triés : variation calculée avec les relevés antérieurs associés",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D07 — Les dates des photos et des poids associés sont affichées distinctement",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D07 — Masse grasse : seules les deux mesures de la période comptent",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D07 — Volume enregistré inclut les deux bornes et exclut les séances hors période",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D07 — Le volume est nommé avec son unité et ne prétend pas mesurer la force",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D07 — Comparaison light 320px : pas de débordement ni petite cible",
+      "status": "passed",
+      "detail": "{\"viewport\":320,\"scrollWidth\":320,\"small\":[]}"
+    },
+    {
+      "name": "D07 — Comparaison light 390px : pas de débordement ni petite cible",
+      "status": "passed",
+      "detail": "{\"viewport\":390,\"scrollWidth\":390,\"small\":[]}"
+    },
+    {
+      "name": "D07 — Comparaison light 768px : pas de débordement ni petite cible",
+      "status": "passed",
+      "detail": "{\"viewport\":768,\"scrollWidth\":768,\"small\":[]}"
+    },
+    {
+      "name": "D07 — Comparaison dark 320px : pas de débordement ni petite cible",
+      "status": "passed",
+      "detail": "{\"viewport\":320,\"scrollWidth\":320,\"small\":[]}"
+    },
+    {
+      "name": "D07 — Comparaison dark 390px : pas de débordement ni petite cible",
+      "status": "passed",
+      "detail": "{\"viewport\":390,\"scrollWidth\":390,\"small\":[]}"
+    },
+    {
+      "name": "D07 — Comparaison dark 768px : pas de débordement ni petite cible",
+      "status": "passed",
+      "detail": "{\"viewport\":768,\"scrollWidth\":768,\"small\":[]}"
+    },
+    {
+      "name": "D07 — Un choix inversé conserve deux photos distinctes dans l’ordre chronologique",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D07 — La même photo ne peut pas être choisie dans les deux champs",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D07 — Un poids uniquement futur ne devient pas une mesure associée",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D07 — Une mesure de masse grasse hors période ne devient pas une variation",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D07 — Un seul relevé de poids ne produit pas artificiellement zéro variation",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D07 — Un seul relevé de masse grasse ne produit pas artificiellement zéro variation",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D07 — Deux photos du même jour restent distinctes sans inventer de variation de poids",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D07 — Supprimer une photo sélectionnée réconcilie les choix sans image cassée",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D07 — Le mois choisi affiche uniquement ses cinq séances",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D07 — Une date occupée affiche seulement la séance de ce jour",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D07 — Une date vide a un état vide explicite",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D07 — Choisir un jour d’un autre mois synchronise le mois et la liste",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D07 — Tout le mois retire le filtre de jour",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D07 — Février bissextile garde le 29 et sa séance",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D07 — La navigation traverse décembre vers janvier de l’année suivante",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D07 — La navigation précédente revient à décembre",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D07 — Mois actuel revient à la période locale courante",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D07 — Calendrier light 320px : pas de débordement ni petite cible",
+      "status": "passed",
+      "detail": "{\"viewport\":320,\"scrollWidth\":320,\"small\":[]}"
+    },
+    {
+      "name": "D07 — Calendrier light 390px : pas de débordement ni petite cible",
+      "status": "passed",
+      "detail": "{\"viewport\":390,\"scrollWidth\":390,\"small\":[]}"
+    },
+    {
+      "name": "D07 — Calendrier light 768px : pas de débordement ni petite cible",
+      "status": "passed",
+      "detail": "{\"viewport\":768,\"scrollWidth\":768,\"small\":[]}"
+    },
+    {
+      "name": "D07 — Calendrier dark 320px : pas de débordement ni petite cible",
+      "status": "passed",
+      "detail": "{\"viewport\":320,\"scrollWidth\":320,\"small\":[]}"
+    },
+    {
+      "name": "D07 — Calendrier dark 390px : pas de débordement ni petite cible",
+      "status": "passed",
+      "detail": "{\"viewport\":390,\"scrollWidth\":390,\"small\":[]}"
+    },
+    {
+      "name": "D07 — Calendrier dark 768px : pas de débordement ni petite cible",
+      "status": "passed",
+      "detail": "{\"viewport\":768,\"scrollWidth\":768,\"small\":[]}"
+    },
+    {
+      "name": "D07 — Un import remplaçant les photos réinitialise les sélections devenues absentes",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D07 — Un autre compte n’hérite pas de la sélection de photos précédente",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "D07 — Aucune exception JavaScript",
+      "status": "passed",
+      "detail": "[]"
+    },
+    {
+      "name": "D07 — Aucune ressource applicative en échec",
+      "status": "passed",
+      "detail": "[]"
+    }
+  ],
+  "pageErrors": [],
+  "requestFailures": [],
+  "states": [
+    {
+      "screen": "Comparaison",
+      "theme": "light",
+      "width": 320,
+      "viewport": 320,
+      "scrollWidth": 320,
+      "small": []
+    },
+    {
+      "screen": "Comparaison",
+      "theme": "light",
+      "width": 390,
+      "viewport": 390,
+      "scrollWidth": 390,
+      "small": []
+    },
+    {
+      "screen": "Comparaison",
+      "theme": "light",
+      "width": 768,
+      "viewport": 768,
+      "scrollWidth": 768,
+      "small": []
+    },
+    {
+      "screen": "Comparaison",
+      "theme": "dark",
+      "width": 320,
+      "viewport": 320,
+      "scrollWidth": 320,
+      "small": []
+    },
+    {
+      "screen": "Comparaison",
+      "theme": "dark",
+      "width": 390,
+      "viewport": 390,
+      "scrollWidth": 390,
+      "small": []
+    },
+    {
+      "screen": "Comparaison",
+      "theme": "dark",
+      "width": 768,
+      "viewport": 768,
+      "scrollWidth": 768,
+      "small": []
+    },
+    {
+      "screen": "Calendrier",
+      "theme": "light",
+      "width": 320,
+      "viewport": 320,
+      "scrollWidth": 320,
+      "small": []
+    },
+    {
+      "screen": "Calendrier",
+      "theme": "light",
+      "width": 390,
+      "viewport": 390,
+      "scrollWidth": 390,
+      "small": []
+    },
+    {
+      "screen": "Calendrier",
+      "theme": "light",
+      "width": 768,
+      "viewport": 768,
+      "scrollWidth": 768,
+      "small": []
+    },
+    {
+      "screen": "Calendrier",
+      "theme": "dark",
+      "width": 320,
+      "viewport": 320,
+      "scrollWidth": 320,
+      "small": []
+    },
+    {
+      "screen": "Calendrier",
+      "theme": "dark",
+      "width": 390,
+      "viewport": 390,
+      "scrollWidth": 390,
+      "small": []
+    },
+    {
+      "screen": "Calendrier",
+      "theme": "dark",
+      "width": 768,
+      "viewport": 768,
+      "scrollWidth": 768,
+      "small": []
+    }
+  ],
+  "browser": "154.0.8037.57",
+  "passed": 42,
+  "failed": 0,
+  "completedAt": "2026-11-03T09:08:14.174Z"
+}

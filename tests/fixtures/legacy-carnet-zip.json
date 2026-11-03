@@ -1,0 +1,231 @@
+{
+  "profile": {
+    "setup": true,
+    "name": "Camille archive",
+    "goal": "Recomposition",
+    "level": "Intermédiaire",
+    "perWeek": 4,
+    "avatar": "🏋️",
+    "bio": "Carnet fictif au schéma du ZIP original",
+    "accent": "orange"
+  },
+  "xp": 210,
+  "xpLog": [
+    {
+      "id": "legacy-xp",
+      "date": "2026-10-20T08:20:00.000Z",
+      "n": 100,
+      "reason": "Séance terminée"
+    }
+  ],
+  "sessions": [
+    {
+      "id": "legacy-session",
+      "date": "2026-10-20",
+      "iso": "2026-10-20T08:00:00.000Z",
+      "program": "Routine archive",
+      "day": "Jambes",
+      "duration": 1200,
+      "volume": 360,
+      "sets": 1,
+      "exercises": [
+        {
+          "name": "Squat",
+          "sets": [
+            {
+              "weight": "40",
+              "reps": "9",
+              "rpe": "7",
+              "done": true
+            }
+          ]
+        },
+        {
+          "name": "Gainage non réalisé",
+          "sets": []
+        }
+      ]
+    }
+  ],
+  "programs": [
+    {
+      "id": "legacy-program",
+      "name": "Routine archive",
+      "next": 0,
+      "days": [
+        {
+          "id": "legacy-day",
+          "name": "Jambes",
+          "exercises": [
+            {
+              "id": "legacy-exercise",
+              "name": "Squat",
+              "sets": 3,
+              "repsMin": 8,
+              "repsMax": 10,
+              "rest": 90
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "activeProgram": "legacy-program",
+  "lastSets": {
+    "Squat": [
+      {
+        "weight": "40",
+        "reps": "9",
+        "rpe": "7"
+      },
+      {
+        "weight": "",
+        "reps": "",
+        "rpe": ""
+      }
+    ]
+  },
+  "prs": {
+    "Squat": 40
+  },
+  "meals": [
+    {
+      "id": "legacy-meal",
+      "date": "2026-10-20",
+      "meal": "Déjeuner",
+      "food": "Riz cuit",
+      "grams": 200,
+      "kcal": 260,
+      "p": 5.4,
+      "c": 56,
+      "f": 0.6
+    }
+  ],
+  "photos": [],
+  "whey": {
+    "enabled": false,
+    "dose": 30,
+    "times": [
+      "10:00",
+      "16:00"
+    ],
+    "lastTaken": {}
+  },
+  "foods": [
+    {
+      "id": "f1",
+      "name": "Poulet",
+      "kcal": 165,
+      "p": 31,
+      "c": 0,
+      "f": 3.6
+    },
+    {
+      "id": "f2",
+      "name": "Riz cuit",
+      "kcal": 130,
+      "p": 2.7,
+      "c": 28,
+      "f": 0.3
+    },
+    {
+      "id": "f3",
+      "name": "Flocons d’avoine",
+      "kcal": 370,
+      "p": 13,
+      "c": 60,
+      "f": 7
+    },
+    {
+      "id": "f4",
+      "name": "Œuf",
+      "kcal": 143,
+      "p": 13,
+      "c": 1,
+      "f": 10
+    },
+    {
+      "id": "f5",
+      "name": "Banane",
+      "kcal": 89,
+      "p": 1.1,
+      "c": 23,
+      "f": 0.3
+    },
+    {
+      "id": "f6",
+      "name": "Whey",
+      "kcal": 400,
+      "p": 75,
+      "c": 8,
+      "f": 6
+    }
+  ],
+  "water": {
+    "2026-10-20": 500
+  },
+  "sleep": {
+    "2026-10-20": {
+      "hours": 7.5,
+      "quality": 4
+    }
+  },
+  "weights": [
+    {
+      "date": "2026-10-20",
+      "value": 71.2
+    }
+  ],
+  "measurements": [
+    {
+      "date": "2026-10-20",
+      "bodyFat": 18.5
+    }
+  ],
+  "goals": [],
+  "habits": [
+    {
+      "id": "h1",
+      "name": "Séance",
+      "xp": 40
+    },
+    {
+      "id": "h2",
+      "name": "Protéines",
+      "xp": 25
+    },
+    {
+      "id": "h3",
+      "name": "Eau",
+      "xp": 20
+    },
+    {
+      "id": "h4",
+      "name": "Sommeil",
+      "xp": 20
+    }
+  ],
+  "habitLog": {
+    "2026-10-20_h1": 1
+  },
+  "notes": [
+    "Note personnelle conservée"
+  ],
+  "notifications": [],
+  "badges": [],
+  "settings": {
+    "theme": "dark",
+    "calories": 2800,
+    "protein": 180,
+    "carbs": 320,
+    "fat": 80,
+    "water": 2500,
+    "steps": 8000
+  },
+  "visits": [
+    "2026-10-20"
+  ],
+  "visitBest": 1,
+  "visitMilestones": [],
+  "demo": false
+}

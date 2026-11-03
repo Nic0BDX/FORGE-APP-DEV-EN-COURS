@@ -1,0 +1,209 @@
+{
+  "events": [
+    {
+      "at": "2026-10-31T14:27:39+01:00",
+      "day": 2,
+      "completed": "P05",
+      "current": "D05",
+      "detail": "P05 validée : 20 contrôles du mécanisme de reprise et des archives réussis. Aucun changement applicatif depuis le Jour 1. D05 inspectée ; prochaine étape : implémenter le brouillon de séance par compte, les minuteurs persistants et la fin sans doublon dans workouts.js, storage.js, layout.js, auth.js, settings.js et app.js. Plan de tests préparé dans tests/resilience-smoke.cjs.",
+      "evidence": [
+        {
+          "path": "tests/resultats-checkpoint.json",
+          "sha256": "010bbed18522b59cae85fb218eaba64dd692a04797f8444fd0d1f8aa8482b391"
+        }
+      ],
+      "day_closed": false
+    },
+    {
+      "at": "2026-10-31T14:35:11+01:00",
+      "day": 2,
+      "completed": "D05",
+      "current": "D06",
+      "detail": "D05 terminée et vérifiée : brouillon par compte, saisies conservées, reprise explicite, minuteur à échéance réelle, pause persistante, refus des valeurs invalides, fin sans doublon et résistance aux échecs de stockage. 49 contrôles ciblés, 33 de non-régression sur 318 états et 22 contrôles d’aperçu réussis. D06 non commencée : préparer validation du schéma des sauvegardes, aperçu avant import, confirmation puis écriture atomique sans perte en cas d’erreur.",
+      "evidence": [
+        {
+          "path": "tests/resultats-d05.json",
+          "sha256": "348a176056a2e995cc293e8f066c645cb90d901d43a3c1cded1855fa98ae76f9"
+        },
+        {
+          "path": "tests/resultats-regression-d05.json",
+          "sha256": "a10287dcfb0e74d4e271feb5608a30935bfa263620f2fe91dca7002811263dd8"
+        },
+        {
+          "path": "tests/resultats-apercu-d05.json",
+          "sha256": "d502b3f9837f67c82d28cea4f16d43c3a294570200d8ebd4066f5798ea6d4f7c"
+        }
+      ],
+      "day_closed": false
+    },
+    {
+      "at": "2026-11-03T09:59:12+01:00",
+      "day": 2,
+      "completed": "D06",
+      "current": "",
+      "detail": "Jour 2 clôturé : P05, D05 et D06 terminées. D06 protège les sauvegardes anciennes et versionnées, demande confirmation avant remplacement et conserve le carnet en cas d’erreur. Récupération du fichier brut vérifiée. 70 contrôles ciblés, 33 contrôles applicatifs sur 318 états et 22 contrôles d’aperçu réussis ; ouverture file:// non exécutée. Sources et documents gelés avant publication. Commencer ensuite le Jour 3 par T05, sans refaire les tâches livrées.",
+      "evidence": [
+        {
+          "path": "tests/resultats-d06.json",
+          "sha256": "2eae1730c7fb01311ca73a509cd43fd7353fd67e2b207e1a7e320a4382e70209"
+        },
+        {
+          "path": "tests/resultats-regression-d06.json",
+          "sha256": "8471bc5afda0801a2ccaa77e3f141ee2d818ebdbcf7e28c007e23e3d62d1311e"
+        },
+        {
+          "path": "tests/resultats-apercu-d06.json",
+          "sha256": "62b03e74eba4203691f12727b7a2fbd0b7adb5f50d327f1a11ebd6d492254f89"
+        }
+      ],
+      "day_closed": true
+    },
+    {
+      "at": "2026-11-03T09:59:37+01:00",
+      "day": 3,
+      "completed": null,
+      "current": "T05",
+      "detail": "Jour 3 commencé après envoi de la clôture et du ZIP validé du Jour 2. T05 démarre : fermeture et relance du navigateur avec profil conservé, expiration complète du repos et anciens brouillons/sauvegarde historique. Aucun nouveau code applicatif modifié. Après T05 testée et archivée : D07 puis U03.",
+      "evidence": [],
+      "day_closed": false
+    },
+    {
+      "at": "2026-11-03T10:04:09+01:00",
+      "day": 3,
+      "completed": "T05",
+      "current": "D07",
+      "detail": "T05 terminée : 30 contrôles complémentaires réussis. Deux instances successives de Chromium sur le même profil conservent compte et séries ; le repos expiré ne redémarre pas. Sept variantes de brouillon invalide préservent le carnet ; une fixture synthétique issue du schéma du ZIP original reste compatible. Fermeture propre testée, pas extinction forcée du système. Aucun fichier applicatif modifié pour T05. D07 va commencer sur les sélections de photos et de périodes du calendrier.",
+      "evidence": [
+        {
+          "path": "tests/resultats-t05.json",
+          "sha256": "ce16810711eb2755ed8e1f6e8a0945fb2784858fd10aace49e7c6256f66a7d6c"
+        }
+      ],
+      "day_closed": false
+    },
+    {
+      "at": "2026-11-03T10:11:14+01:00",
+      "day": 3,
+      "completed": "D07",
+      "current": "U03",
+      "detail": "D07 terminée et vérifiée : deux photos distinctes choisies, dates d’ajout et relevés de poids explicites, masse grasse en points et volume limité à la période. Calendrier filtrable par mois ou jour. 42 contrôles fonctionnels, 7 contrôles de légendes et 22 contrôles d’aperçu réussis ; ouverture file:// non exécutée. La nouvelle entrée Avant / Après de l’aperçu source et autonome est vérifiée. U03 commence maintenant : séparer les actions des souvenirs, rendre nutrition et comparaisons plus lisibles à petite largeur.",
+      "evidence": [
+        {
+          "path": "tests/resultats-d07.json",
+          "sha256": "c9c5b60be2cadb39c5ea6ddc10a420d3afef34b8696b33d02c58457ec6d70e13"
+        },
+        {
+          "path": "tests/resultats-d07-legendes.json",
+          "sha256": "9c35cc59db646d1536ed960536b7257209c9e4ebab3ba5876aa7829ff0e6d95d"
+        },
+        {
+          "path": "tests/resultats-apercu-d07.json",
+          "sha256": "d49daf0def4462e4d8abbf58c56309346238880711516a7f61076b90257be0ca"
+        }
+      ],
+      "day_closed": false
+    },
+    {
+      "at": "2026-11-03T10:21:54+01:00",
+      "day": 3,
+      "completed": "U03",
+      "current": "",
+      "detail": "Jour 3 clôturé : T05, D07 et U03 terminées. Souvenirs sans chevauchement des actions, nutrition lisible sur téléphone, photos comparées entières avec légendes séparées, sélecteurs et états vides harmonisés. La ligne de rappel whey possède un libellé associé et une cible tactile de 44 px. 47 contrôles ciblés finaux et 22 contrôles d’aperçu réussis ; la régression de 33 contrôles sur 318 états a précédé ce dernier correctif de formulaire, couvert ensuite par les contrôles ciblés. Sources et documents gelés. Les ZIP des Jours 1 et 2 sont conservés.",
+      "evidence": [
+        {
+          "path": "tests/resultats-u03.json",
+          "sha256": "14a3042407cf786aa125813aa71f8ea33f38cc08d40b16042b8af2bad453e629"
+        },
+        {
+          "path": "tests/resultats-regression-u03.json",
+          "sha256": "82a84d49d3858123902611a25f921e76357825b367ff9aa714a6a82d0585dd96"
+        },
+        {
+          "path": "tests/resultats-apercu-u03.json",
+          "sha256": "8ba9aced62231ee6d13481a3a9d06fef70092e871f6c8707522a7de5d288f7ef"
+        }
+      ],
+      "day_closed": true
+    },
+    {
+      "at": "2026-11-03T10:22:09+01:00",
+      "day": 4,
+      "completed": null,
+      "current": "C03",
+      "detail": "Jour 4 démarré après livraison et message de clôture du Jour 3. C03 : intégrer les corrections éditoriales déjà préparées, en relisant les nouveaux textes D07 et sans refaire les corrections livrées. Le code applicatif est encore celui du Jour 3 validé. U04 suivra en trois étapes ordonnées (Designer, Développeur, Testeur), puis P04 revue de couverture.",
+      "evidence": [],
+      "day_closed": false
+    },
+    {
+      "at": "2026-11-03T11:14:30+01:00",
+      "day": 4,
+      "completed": "V01",
+      "current": "V02",
+      "detail": "Socle vidéo intégré et vérifié : noir/verre/citron, sidebar, barre supérieure, dashboard et grilles spécialisées. La comparaison du dashboard a corrigé hauteurs, espacements et taille du donut. Les images restent réservées et la comparaison finale de tous les écrans appartient à V03. Pause demandée par le propriétaire après livraison du ZIP ; aucune nouvelle journée à démarrer.",
+      "evidence": [
+        {
+          "path": "docs/COMPARAISON_VIDEO.md",
+          "sha256": "8d26bf3ea244c85a5b2effd03ee6ebe3e158eb71099d4ad1f87a978b7a873ac1"
+        },
+        {
+          "path": "tests/resultats-video-regression.json",
+          "sha256": "50668c88c9ea05cc98cd0aaf668d30c29799c2b43ec8f927eecdd1860c37d29f"
+        },
+        {
+          "path": "tests/resultats-video-interactions.json",
+          "sha256": "e91f41c2d11f09413d9ef6f825c42dd8b69c81a211458c1ac97ef5b2dfb1a93e"
+        },
+        {
+          "path": "tests/resultats-apercu-video.json",
+          "sha256": "3b8955573f763243cb9ad0d6836b5f9e9e1ce6e23162d471364bcca10d888704"
+        }
+      ],
+      "day_closed": false
+    },
+    {
+      "at": "2026-11-03T11:14:44+01:00",
+      "day": 4,
+      "completed": "V02",
+      "current": "V03",
+      "detail": "ÉTAPE VIDÉO LIVRÉE, PAUSE À LA DEMANDE DU PROPRIÉTAIRE. V01 et V02 terminées : coque noire/verre/citron, sept accents persistants, recherche, menu avatar, périodes réelles, animations et grilles Forge. Programme, nutrition, sommeil, santé et progression adaptés ; pas et pouls manuels avec validation des sauvegardes. APERCU.html est le site complet autonome ; preview/phone.html conserve la galerie. Validation : 33 contrôles sur 342 états, 71 contrôles vidéo, 22 contrôles aperçu ; aucun échec. Ouverture file:// non exécutée car bloquée par le navigateur géré. C03 reste à relire ; V03 reste ouverte pour la comparaison exhaustive et les images. Dernières captures dans tests/captures-video, écarts dans docs/COMPARAISON_VIDEO.md. Les agents secondaires ont atteint leur quota ; intégration finale effectuée par le responsable principal. Livrable conservé : Forge-Jour-4-Etape-video.zip. Attendre une nouvelle demande, ne pas enchaîner.",
+      "evidence": [
+        {
+          "path": "tests/resultats-video-regression.json",
+          "sha256": "50668c88c9ea05cc98cd0aaf668d30c29799c2b43ec8f927eecdd1860c37d29f"
+        },
+        {
+          "path": "tests/resultats-video-interactions.json",
+          "sha256": "e91f41c2d11f09413d9ef6f825c42dd8b69c81a211458c1ac97ef5b2dfb1a93e"
+        },
+        {
+          "path": "tests/resultats-apercu-video.json",
+          "sha256": "3b8955573f763243cb9ad0d6836b5f9e9e1ce6e23162d471364bcca10d888704"
+        }
+      ],
+      "day_closed": false
+    }
+  ],
+  "mode": "paused",
+  "day": 4,
+  "updated_at": "2026-11-03T11:14:44+01:00",
+  "current": "V03",
+  "detail": "ÉTAPE VIDÉO LIVRÉE, PAUSE À LA DEMANDE DU PROPRIÉTAIRE. V01 et V02 terminées : coque noire/verre/citron, sept accents persistants, recherche, menu avatar, périodes réelles, animations et grilles Forge. Programme, nutrition, sommeil, santé et progression adaptés ; pas et pouls manuels avec validation des sauvegardes. APERCU.html est le site complet autonome ; preview/phone.html conserve la galerie. Validation : 33 contrôles sur 342 états, 71 contrôles vidéo, 22 contrôles aperçu ; aucun échec. Ouverture file:// non exécutée car bloquée par le navigateur géré. C03 reste à relire ; V03 reste ouverte pour la comparaison exhaustive et les images. Dernières captures dans tests/captures-video, écarts dans docs/COMPARAISON_VIDEO.md. Les agents secondaires ont atteint leur quota ; intégration finale effectuée par le responsable principal. Livrable conservé : Forge-Jour-4-Etape-video.zip. Attendre une nouvelle demande, ne pas enchaîner.",
+  "next": "C03",
+  "next_command": "À la prochaine demande : lire les écarts de docs/COMPARAISON_VIDEO.md et les captures ; finir V03 (comparaison de chaque écran et visuels fournis), puis C03 et U04. Conserver tous les parcours et ne publier que du code testé. Ne pas relancer les tâches V01/V02 déjà validées.",
+  "evidence": [
+    {
+      "path": "tests/resultats-video-regression.json",
+      "sha256": "50668c88c9ea05cc98cd0aaf668d30c29799c2b43ec8f927eecdd1860c37d29f"
+    },
+    {
+      "path": "tests/resultats-video-interactions.json",
+      "sha256": "e91f41c2d11f09413d9ef6f825c42dd8b69c81a211458c1ac97ef5b2dfb1a93e"
+    },
+    {
+      "path": "tests/resultats-apercu-video.json",
+      "sha256": "3b8955573f763243cb9ad0d6836b5f9e9e1ce6e23162d471364bcca10d888704"
+    }
+  ],
+  "day_closed": false,
+  "paused": true
+}

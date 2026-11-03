@@ -1,0 +1,165 @@
+{
+  "task": "T05",
+  "startedAt": "2026-11-03T09:02:06.700Z",
+  "baseURL": "http://127.0.0.1:8080",
+  "status": "completed",
+  "checks": [
+    {
+      "name": "T05 — Le repos est réellement actif avant fermeture",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "T05 — Le premier navigateur est fermé avant une nouvelle instance",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "T05 — La relance retrouve le compte et propose une reprise explicite",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "T05 — Le carnet historique n’est pas modifié par la fermeture",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "T05 — Les séries cochées et non cochées survivent à la relance",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "T05 — Un repos expiré hors navigateur revient à zéro sans redémarrer",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "T05 — Le repos expiré est aussi corrigé dans le brouillon enregistré",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "T05 — La relance ne crée pas de séance ni de récompense",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "T05 — Brouillon ignoré sans faux parcours de reprise : JSON tronqué",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "T05 — Brouillon refusé sans altérer le carnet ou le fichier brut : JSON tronqué",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "T05 — Brouillon ignoré sans faux parcours de reprise : ancienne version inconnue",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "T05 — Brouillon refusé sans altérer le carnet ou le fichier brut : ancienne version inconnue",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "T05 — Brouillon ignoré sans faux parcours de reprise : version future inconnue",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "T05 — Brouillon refusé sans altérer le carnet ou le fichier brut : version future inconnue",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "T05 — Brouillon ignoré sans faux parcours de reprise : propriétaire différent",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "T05 — Brouillon refusé sans altérer le carnet ou le fichier brut : propriétaire différent",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "T05 — Brouillon ignoré sans faux parcours de reprise : série validée incohérente",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "T05 — Brouillon refusé sans altérer le carnet ou le fichier brut : série validée incohérente",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "T05 — Brouillon ignoré sans faux parcours de reprise : minuteur malformé",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "T05 — Brouillon refusé sans altérer le carnet ou le fichier brut : minuteur malformé",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "T05 — Brouillon ignoré sans faux parcours de reprise : brouillon trop volumineux",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "T05 — Brouillon refusé sans altérer le carnet ou le fichier brut : brouillon trop volumineux",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "T05 — Un brouillon valide reste utilisable après les refus",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "T05 — Le format du ZIP historique est reconnu comme sauvegarde ancienne",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "T05 — Séance historique avec chaînes numériques et exercice vide conservée",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "T05 — Repas, poids, mesures, eau, sommeil et notes historiques conservés",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "T05 — Le carnet historique reste lisible au démarrage et conserve son thème",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "T05 — Les dernières séries historiques préremplissent la nouvelle séance",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "T05 — Aucune exception JavaScript",
+      "status": "passed",
+      "detail": "[]"
+    },
+    {
+      "name": "T05 — Aucune ressource applicative en échec",
+      "status": "passed",
+      "detail": "[]"
+    }
+  ],
+  "pageErrors": [],
+  "requestFailures": [],
+  "launches": 2,
+  "browser": "154.0.8037.57",
+  "passed": 30,
+  "failed": 0,
+  "completedAt": "2026-11-03T09:02:19.816Z"
+}

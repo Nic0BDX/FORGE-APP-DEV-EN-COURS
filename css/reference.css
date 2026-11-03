@@ -1,0 +1,103 @@
+/* FORGE — Surcharge finale : alignement sur le dashboard de référence */
+/* ===== FORGE DASHBOARD — MATCH REFERENCE ===== */
+:root{
+  --bg:#050607;--bg2:#090b0d;--panel:#0d0f11;--panel2:#14171a;
+  --line:#202429;--text:#f5f6f7;--muted:#858b92;--accent:#f5f6f7;
+  --accent2:#6ee7a0;--blue:#5b8cff;--warn:#f4c95d;
+}
+body{background:#050607}
+.top{display:none!important}
+.shell{grid-template-columns:220px minmax(0,1fr);min-height:100vh}
+.side{
+  top:0;height:100vh;position:sticky;align-self:start;
+  background:#08090a;border-right:1px solid #1c1f23;padding:16px 14px;
+  overflow:auto
+}
+.brand-lockup{padding:2px 10px 0}
+.brand-word{font-size:25px;letter-spacing:.18em;font-weight:950}
+.brand-sub{font-size:10px;letter-spacing:.28em;color:#7a8086;margin-top:2px}
+.side-tagline{display:none}
+.nav{margin-top:24px;gap:4px}
+.nav button{padding:10px 11px;border-radius:8px;font-size:12px;color:#a3a8ad}
+.nav button.active,.nav button:hover{background:#1b1e22;color:#fff;box-shadow:none}
+.nav button.active:before{content:'';position:absolute;left:0;top:7px;bottom:7px;width:2px;background:#fff;border-radius:2px}
+.nav button.active{position:relative}
+.side-level{
+  margin:20px 0 0;padding:14px;border:1px solid #202429;border-radius:12px;
+  background:#0d0f11
+}
+.side-level-head{display:flex;align-items:center;justify-content:space-between}
+.side-level-ring{
+  width:66px;height:66px;border-radius:50%;display:grid;place-items:center;
+  background:conic-gradient(#6ee7a0 calc(var(--value)*1%),#262b30 0);
+  position:relative
+}
+.side-level-ring:before{content:'';position:absolute;inset:7px;border-radius:50%;background:#0d0f11}
+.side-level-ring b{position:relative;font-size:18px}
+.side-level small{color:#80868c;font-size:9px}
+.side-level .xp-mini{font-size:10px;color:#dfe3e5;font-weight:700}
+.side-streak{
+  margin-top:9px;padding:12px 13px;border:1px solid #202429;border-radius:12px;
+  background:#0d0f11;display:flex;align-items:center;gap:9px
+}
+.side-streak .fire{font-size:17px}.side-streak b{font-size:12px}.side-streak small{display:block;color:#7d8389;font-size:9px}
+.side-why{margin-top:9px;padding:12px;border:1px solid #202429;border-radius:12px;background:#0d0f11}
+.side-why b{font-size:10px}.side-why div{font-size:9px;color:#9ba1a7;margin-top:7px}
+.side-why div:before{content:'✓';color:#6ee7a0;font-weight:900;margin-right:7px}
+.side-account{margin-top:14px;padding:12px 8px 2px;border-top:1px solid #1d2024}
+.side-account .account-avatar{width:34px;height:34px}.side-account b{font-size:11px}.side-account small{font-size:9px}
+.main{max-width:none;width:100%;padding:24px 34px 46px}
+.dashboard-page{max-width:1280px;margin:0 auto}
+.dashboard-head{align-items:center;margin-bottom:16px}
+.dashboard-greet{font-size:10px;color:#8e949a;margin-bottom:3px}
+.dashboard-head h1{font-size:24px;margin-bottom:4px}
+.dashboard-head .sub{font-size:11px}
+.dashboard-head-actions{gap:10px}
+.head-icon{width:32px;height:32px;border:1px solid #202429;border-radius:9px;background:#0d0f11;color:#e7e9ea;display:grid;place-items:center;font-size:16px}
+.head-add{height:32px;padding:0 15px}
+.streak-head{display:flex;align-items:center;gap:8px}
+.streak-head .streak-ring{width:48px;height:48px}
+.streak-head .streak-label{font-size:11px}.streak-head .sub{font-size:8px}
+.dashboard-stats{gap:10px;margin-bottom:10px}
+.dash-stat{min-height:105px;padding:13px 14px;border-radius:10px;background:#0c0e10}
+.dash-stat b{font-size:20px;margin-top:9px}
+.dash-stat small{font-size:9px}.dash-stat span{font-size:9px}
+.dashboard-grid{gap:10px}
+.dash-card{padding:15px;border-radius:10px;min-height:180px}.dashboard-grid>.dash-card:nth-child(3),.dashboard-grid>.dash-card:nth-child(4){min-height:170px}
+.chart-card{min-height:235px}.chart-card canvas{height:175px}
+.card-title{font-size:15px}
+.dash-card-head small{font-size:9px}
+.macro-layout{display:flex;align-items:center;justify-content:center;gap:26px;padding:18px 8px;min-height:160px}
+.macro-donut{width:108px;height:108px}
+.macro-legend{min-width:225px}.macro-legend>div{font-size:10px;padding:8px 0;grid-template-columns:10px 1fr auto auto}
+.tag-row{margin-top:18px}.tag-row span{font-size:9px}
+.next-line{font-size:10px}
+.module-row{gap:10px;margin-top:10px}
+.module-card{padding:13px;min-height:260px;border-radius:10px}
+.module-head{font-size:12px}.module-tabs{margin:10px -13px 10px;padding:0 13px;gap:13px}
+.module-tabs span{font-size:8px}
+.module-highlight{padding:10px}.module-highlight b{font-size:11px}.module-highlight small{font-size:8px}
+.module-list>div{font-size:9px}
+.nutrition-mini{gap:10px}.mini-donut{width:58px;height:58px}
+.module-big-number{font-size:22px;margin-top:13px}
+.dashboard-footer{padding:15px 8px;margin-top:10px}
+.dashboard-footer span{font-size:13px}.dashboard-footer b{font-size:9px}.dashboard-footer small{font-size:7px}
+.home-dash-layout{display:grid;grid-template-columns:minmax(0,1fr) 220px;gap:10px;align-items:start}
+.home-shortcuts{background:#0c0e10;border:1px solid #202429;border-radius:10px;padding:14px;position:sticky;top:18px}
+.home-shortcuts h3{font-size:12px;margin:0 0 10px}
+.shortcut-btn{display:flex;align-items:center;gap:10px;width:100%;padding:10px;border:1px solid #202429;border-radius:8px;background:#101214;color:#e5e7e9;text-align:left;margin-top:7px}
+.shortcut-btn:hover{background:#171a1d}.shortcut-btn .sc-ico{width:28px;height:28px;border-radius:7px;background:#171a1d;display:grid;place-items:center}
+.shortcut-btn b{display:block;font-size:10px}.shortcut-btn small{display:block;color:#747b81;font-size:8px;margin-top:2px}
+.shortcut-footer{margin-top:12px;padding-top:10px;border-top:1px solid #1c2024;font-size:9px;color:#969ca2;text-align:center}
+@media(max-width:1120px){.home-dash-layout{grid-template-columns:1fr}.home-shortcuts{position:static}.home-shortcuts-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:7px}.shortcut-btn{margin-top:0}}
+@media(max-width:900px){
+  .shell{display:block}.side{display:none}.main{padding:18px 14px 86px}
+  .home-dash-layout{display:block}.dashboard-stats{grid-template-columns:repeat(2,1fr)}
+}
+@media(max-width:560px){
+  .dashboard-stats{grid-template-columns:1fr 1fr}.dashboard-head h1{font-size:21px}
+  .dashboard-grid{grid-template-columns:1fr}.module-row{grid-template-columns:1fr}
+  .home-shortcuts-grid{grid-template-columns:1fr}.dashboard-footer{grid-template-columns:1fr 1fr}
+}
+
+.day.today{outline:2px solid #f4f5f5!important}.mobile-nav{background:#0d0f11!important}

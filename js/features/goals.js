@@ -1,0 +1,12 @@
+/* FORGE — Objectifs */
+function goals(){
+ const goals=DB.goals||[];
+ return `<div class="row wrap"><div><div class="eyebrow">OBJECTIFS</div><h1>Mes objectifs</h1><div class="sub">Définis ce que tu veux suivre et garde une vue claire de ta progression.</div></div><button class="btn primary" onclick="openGoalModal()">+ Objectif</button></div>
+ <div class="grid g3" style="margin-top:16px">${goals.map(g=>`<div class="card"><div class="row"><div><div class="eyebrow">${esc(g.type||'OBJECTIF')}</div><h2>${esc(g.name)}</h2></div><span class="pill green">${Math.min(100,Math.round((g.current||0)/Math.max(1,g.target)*100))}%</span></div><div class="progress green" style="margin-top:14px"><i style="width:${Math.min(100,(g.current||0)/Math.max(1,g.target)*100)}%"></i></div><div class="row" style="margin-top:9px"><span class="sub">${g.current||0} / ${g.target}</span><button class="btn small" onclick="deleteGoal('${g.id}')">×</button></div></div>`).join('')||`<div class="card empty" style="grid-column:1/-1">Aucun objectif pour le moment. Ajoute ton premier objectif.</div>`}</div>`;
+}
+function openGoalModal(){
+ document.getElementById('modalbox').innerHTML=`<h2>Nouvel objectif</h2><label>Nom</label><input id="goalName" placeholder="Ex. 100 kg au développé couché"><label>Type</label><select id="goalType"><option>Performance</option><option>Poids</option><option>Habitude</option><option>Nutrition</option></select><label>Valeur actuelle</label><input id="goalCurrent" type="number" value="0"><label>Cible</label><input id="goalTarget" type="number" value="100"><div class="row gap"><button class="btn" onclick="closeModal()">Annuler</button><button class="btn primary" onclick="saveGoal()">Créer</button></div>`;
+ document.getElementById('modal').classList.add('show')
+}
+function saveGoal(){const name=(document.getElementById('goalName')?.value||'').trim(),current=Number(document.getElementById('goalCurrent').value),target=Number(document.getElementById('goalTarget').value);if(!name||name.length>1000)return toast('Donne un nom à cet objectif (1 à 1 000 caractères).');if(!Number.isFinite(current)||current<0||!Number.isFinite(target)||target<=0)return toast('La valeur actuelle doit être positive ou nulle et la cible supérieure à 0.');DB.goals=DB.goals||[];DB.goals.push({id:uid(),name,type:document.getElementById('goalType').value,current,target});save();closeModal();render()}
+function deleteGoal(id){DB.goals=(DB.goals||[]).filter(g=>g.id!==id);save();render()}

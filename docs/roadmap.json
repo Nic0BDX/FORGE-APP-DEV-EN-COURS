@@ -1,0 +1,353 @@
+{
+  "project": "Forge",
+  "slogan": "Plus qu’une app, une discipline.",
+  "day": 4,
+  "date": "2026-11-03",
+  "agents": [
+    {
+      "id": "chef",
+      "name": "Chef de projet"
+    },
+    {
+      "id": "design",
+      "name": "Designer UI/UX"
+    },
+    {
+      "id": "dev",
+      "name": "Développeur"
+    },
+    {
+      "id": "test",
+      "name": "Testeur mobile"
+    },
+    {
+      "id": "contenu",
+      "name": "Contenu & idées"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "P01",
+      "agent": "chef",
+      "priority": "P0",
+      "title": "Lire les README et dresser l’inventaire de chaque fichier et fonctionnalité",
+      "status": "terminee",
+      "completed_day": 1,
+      "evidence": "INVENTAIRE.md"
+    },
+    {
+      "id": "P02",
+      "agent": "chef",
+      "priority": "P0",
+      "title": "Établir la feuille de route et attribuer les responsabilités sans conflit",
+      "status": "terminee",
+      "completed_day": 1,
+      "evidence": "FEUILLE_DE_ROUTE.md"
+    },
+    {
+      "id": "P03",
+      "agent": "chef",
+      "priority": "P0",
+      "title": "Livrer le bilan Jour 1, le README et le tableau de bord calculé",
+      "status": "terminee",
+      "completed_day": 1,
+      "evidence": "AVANCEMENT.html, README.md et JOURNAL_JOUR_1.md"
+    },
+    {
+      "id": "P04",
+      "agent": "chef",
+      "priority": "P1",
+      "title": "Faire la revue finale de couverture et de préparation à la publication",
+      "status": "a_faire",
+      "completed_day": null,
+      "evidence": "Matrice complète et décisions sur les services externes"
+    },
+    {
+      "id": "P05",
+      "agent": "chef",
+      "priority": "P0",
+      "title": "Automatiser les points de reprise et les archives après chaque tâche vérifiée",
+      "status": "terminee",
+      "completed_day": 2,
+      "evidence": "tests/resultats-checkpoint.json"
+    },
+    {
+      "id": "U01",
+      "agent": "design",
+      "priority": "P0",
+      "title": "Définir la palette, la typographie et la direction visuelle Forge",
+      "status": "terminee",
+      "completed_day": 1,
+      "evidence": "docs/DESIGN.md, palette et illustrations SVG locales"
+    },
+    {
+      "id": "U02",
+      "agent": "design",
+      "priority": "P0",
+      "title": "Refondre le socle visuel et rendre les composants lisibles sur mobile dans les deux thèmes",
+      "status": "terminee",
+      "completed_day": 1,
+      "evidence": "CSS commun, accueil, authentification et coque"
+    },
+    {
+      "id": "U03",
+      "agent": "design",
+      "priority": "P1",
+      "title": "Affiner les écrans spécialisés, les états vides et les longues listes",
+      "status": "terminee",
+      "completed_day": 3,
+      "evidence": "tests/resultats-u03.json ; tests/resultats-regression-u03.json ; tests/resultats-apercu-u03.json"
+    },
+    {
+      "id": "U04",
+      "agent": "design",
+      "priority": "P1",
+      "title": "Auditer contrastes, focus, animations et cohérence sur les états avancés",
+      "status": "a_faire",
+      "completed_day": null,
+      "evidence": "Audit et corrections visuelles, dialogues au clavier et labels ; validation après les étapes U04-a → U04-b → U04-c",
+      "steps": [
+        {
+          "id": "U04-a",
+          "agent": "design",
+          "title": "Diagnostiquer les contrastes, focus visibles et animations ; corriger les styles et geler le CSS."
+        },
+        {
+          "id": "U04-b",
+          "agent": "dev",
+          "title": "Après diagnostic : dialogues au clavier (focus initial, Tab, Échap, retour au déclencheur), noms accessibles, labels des champs de paramètres et accès clavier nommé à l’édition des légendes de souvenirs actuellement déclenchée par une image."
+        },
+        {
+          "id": "U04-c",
+          "agent": "test",
+          "title": "Après gel JS/CSS : vrais parcours clavier, dont édition d’une légende, contraste, thèmes, petite largeur et non-régression ; les mesures CSS seules ne suffisent pas."
+        }
+      ]
+    },
+    {
+      "id": "D01",
+      "agent": "dev",
+      "priority": "P0",
+      "title": "Conserver l’architecture du ZIP et restaurer les accès fonctionnels masqués",
+      "status": "terminee",
+      "completed_day": 1,
+      "evidence": "Routage, hydratation, whey et correctifs critiques observés"
+    },
+    {
+      "id": "D02",
+      "agent": "dev",
+      "priority": "P0",
+      "title": "Améliorer accueil, compte et navigation mobile avec thème clair/sombre persistant",
+      "status": "terminee",
+      "completed_day": 1,
+      "evidence": "JS applicatif existant, sans nouvelle dépendance"
+    },
+    {
+      "id": "D03",
+      "agent": "dev",
+      "priority": "P1",
+      "title": "Ajouter l’écran Premium avec un état de disponibilité explicite",
+      "status": "terminee",
+      "completed_day": 1,
+      "evidence": "Présentation sans paiement ni abonnement fictif"
+    },
+    {
+      "id": "D04",
+      "agent": "dev",
+      "priority": "P1",
+      "title": "Fournir un aperçu interactif d’au moins trois écrans et isoler les données de démonstration",
+      "status": "terminee",
+      "completed_day": 1,
+      "evidence": "APERCU.html et galerie : 22 assertions réussies, 1 essai file:// non exécuté ; rendu autonome sans réseau vérifié"
+    },
+    {
+      "id": "D05",
+      "agent": "dev",
+      "priority": "P1",
+      "title": "Fiabiliser la reprise de séance et les valeurs de séries après interruption",
+      "status": "terminee",
+      "completed_day": 2,
+      "evidence": "tests/resultats-d05.json ; tests/resultats-regression-d05.json ; tests/resultats-apercu-d05.json"
+    },
+    {
+      "id": "D06",
+      "agent": "dev",
+      "priority": "P1",
+      "title": "Valider le schéma des sauvegardes et sécuriser import, migration et effacement",
+      "status": "terminee",
+      "completed_day": 2,
+      "evidence": "tests/resultats-d06.json ; tests/resultats-regression-d06.json ; tests/resultats-apercu-d06.json"
+    },
+    {
+      "id": "D07",
+      "agent": "dev",
+      "priority": "P1",
+      "title": "Affiner comparaison photo et calendrier avec sélection explicite des périodes",
+      "status": "terminee",
+      "completed_day": 3,
+      "evidence": "tests/resultats-d07.json ; tests/resultats-d07-legendes.json ; tests/resultats-apercu-d07.json"
+    },
+    {
+      "id": "D08",
+      "agent": "dev",
+      "priority": "P2",
+      "title": "Connecter les comptes multi-appareils et fournisseurs de connexion choisis",
+      "status": "bloquee",
+      "completed_day": null,
+      "evidence": "Nécessite choix d’un service, identifiants et hébergement",
+      "blocker": "Choix du service de comptes et accès nécessaires indisponibles."
+    },
+    {
+      "id": "D09",
+      "agent": "dev",
+      "priority": "P2",
+      "title": "Connecter le coach IA et gérer attente, erreurs et historique des échanges",
+      "status": "bloquee",
+      "completed_day": null,
+      "evidence": "Nécessite serveur et fournisseur IA ; aucune clé dans le navigateur",
+      "blocker": "Fournisseur IA, serveur et accès nécessaires indisponibles."
+    },
+    {
+      "id": "D10",
+      "agent": "dev",
+      "priority": "P2",
+      "title": "Connecter les abonnements Premium à un service de paiement",
+      "status": "bloquee",
+      "completed_day": null,
+      "evidence": "Nécessite offre, tarifs et prestataire décidés par le propriétaire",
+      "blocker": "Offre, tarifs et compte prestataire de paiement non fournis."
+    },
+    {
+      "id": "T01",
+      "agent": "test",
+      "priority": "P0",
+      "title": "Établir la matrice des écrans et les défauts de la version importée",
+      "status": "terminee",
+      "completed_day": 1,
+      "evidence": "Audit initial et routes inventoriées"
+    },
+    {
+      "id": "T02",
+      "agent": "test",
+      "priority": "P0",
+      "title": "Vérifier chaque écran à petite largeur dans les thèmes clair et sombre",
+      "status": "terminee",
+      "completed_day": 1,
+      "evidence": "318 états, 6 largeurs, 2 thèmes : aucun débordement ; boutons tactiles ≥44 px"
+    },
+    {
+      "id": "T03",
+      "agent": "test",
+      "priority": "P0",
+      "title": "Exécuter les parcours de non-régression représentatifs du Jour 1",
+      "status": "terminee",
+      "completed_day": 1,
+      "evidence": "33/33 assertions réussies ; compte, séance, nutrition, photos, export/import et recharge"
+    },
+    {
+      "id": "T04",
+      "agent": "test",
+      "priority": "P1",
+      "title": "Compléter les vérifications sur de vrais appareils iOS et Android",
+      "status": "bloquee",
+      "completed_day": null,
+      "evidence": "Safari, clavier, capture photo et notifications réelles",
+      "blocker": "Aucun appareil physique iOS ou Android attaché."
+    },
+    {
+      "id": "T05",
+      "agent": "test",
+      "priority": "P1",
+      "title": "Tester les sauvegardes anciennes, les erreurs d’import et les interruptions",
+      "status": "terminee",
+      "completed_day": 3,
+      "evidence": "tests/resultats-t05.json"
+    },
+    {
+      "id": "T06",
+      "agent": "test",
+      "priority": "P2",
+      "title": "Vérifier les futurs services de compte, IA et paiement de bout en bout",
+      "status": "bloquee",
+      "completed_day": null,
+      "evidence": "Après D08, D09 et D10 ; services externes requis",
+      "blocker": "Dépend des intégrations D08, D09 et D10."
+    },
+    {
+      "id": "C01",
+      "agent": "contenu",
+      "priority": "P1",
+      "title": "Écrire la charte éditoriale et préserver le slogan exact",
+      "status": "terminee",
+      "completed_day": 1,
+      "evidence": "docs/CONTENU_ET_IDEES.md"
+    },
+    {
+      "id": "C02",
+      "agent": "contenu",
+      "priority": "P1",
+      "title": "Livrer les textes d’accueil, compte et exemples IA honnêtes",
+      "status": "terminee",
+      "completed_day": 1,
+      "evidence": "Microtextes proposés puis intégrés par le développeur"
+    },
+    {
+      "id": "C03",
+      "agent": "contenu",
+      "priority": "P1",
+      "title": "Relire tous les messages d’erreur, états vides et explications de données",
+      "status": "en_cours",
+      "completed_day": null,
+      "evidence": "Relecture exhaustive après stabilisation des parcours"
+    },
+    {
+      "id": "C04",
+      "agent": "contenu",
+      "priority": "P2",
+      "title": "Proposer trois améliorations utiles pour la prochaine journée",
+      "status": "terminee",
+      "completed_day": 1,
+      "evidence": "Idées priorisées et bénéfice utilisateur"
+    },
+    {
+      "id": "V01",
+      "agent": "design",
+      "priority": "P0",
+      "title": "Reprendre les composants, couleurs et structure de la vidéo de référence",
+      "status": "terminee",
+      "completed_day": 4,
+      "evidence": "docs/COMPARAISON_VIDEO.md ; tests/resultats-video-regression.json ; tests/resultats-video-interactions.json ; tests/resultats-apercu-video.json"
+    },
+    {
+      "id": "V02",
+      "agent": "dev",
+      "priority": "P0",
+      "title": "Adapter le dashboard et les écrans Forge avec accents, périodes et interactions",
+      "status": "terminee",
+      "completed_day": 4,
+      "evidence": "tests/resultats-video-regression.json ; tests/resultats-video-interactions.json ; tests/resultats-apercu-video.json"
+    },
+    {
+      "id": "V03",
+      "agent": "test",
+      "priority": "P0",
+      "title": "Comparer la référence, corriger les écarts et livrer aperçu autonome et ZIP validés",
+      "status": "en_cours",
+      "completed_day": null,
+      "evidence": "Rapport de comparaison vidéo et tests à produire"
+    }
+  ],
+  "blockers": [
+    "L’authentification est locale : aucun compte synchronisé ni connexion Apple/Google n’est raccordé.",
+    "Le coach IA reste un aperçu ; aucun fournisseur ni serveur IA n’est connecté.",
+    "Premium présente une future offre : aucun paiement ou abonnement réel n’est actif.",
+    "Caméra et notifications doivent encore être vérifiées sur de vrais appareils.",
+    "L’ouverture directe file:// est interdite par le navigateur de test géré : les aperçus sont validés via HTTP, pas par double-clic dans cet environnement."
+  ],
+  "next_steps": [
+    "Pause demandée : ne pas enchaîner une nouvelle journée avant instruction du propriétaire.",
+    "Finir V03 : comparaison détaillée de tous les écrans avec la vidéo et derniers ajustements ; intégrer la silhouette lorsqu’elle sera fournie.",
+    "Finaliser C03, puis U04 et P04. Les services distants restent bloqués."
+  ],
+  "mode": "paused"
+}

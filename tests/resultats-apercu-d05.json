@@ -1,0 +1,102 @@
+{
+  "checkedAt": "2026-10-31T13:34:48.959Z",
+  "passed": 22,
+  "failed": 0,
+  "skipped": [
+    {
+      "name": "Direct file:// opening",
+      "reason": "Managed Chromium blocks file URLs: ERR_BLOCKED_BY_ADMINISTRATOR. No bypass attempted; HTTP validated."
+    }
+  ],
+  "checks": [
+    {
+      "name": "Three real application frames render",
+      "status": "passed"
+    },
+    {
+      "name": "Isolated memory in ?screen=welcome",
+      "status": "passed"
+    },
+    {
+      "name": "Isolated memory in ?screen=home",
+      "status": "passed"
+    },
+    {
+      "name": "Isolated memory in ?screen=nutrition",
+      "status": "passed"
+    },
+    {
+      "name": "Nutrition interaction adds a meal",
+      "status": "passed"
+    },
+    {
+      "name": "Demo actions preserve all persistent storage",
+      "status": "passed"
+    },
+    {
+      "name": "Preview selector opens profile",
+      "status": "passed"
+    },
+    {
+      "name": "Reload resets fictitious data",
+      "status": "passed"
+    },
+    {
+      "name": "Demo theme changes independently",
+      "status": "passed"
+    },
+    {
+      "name": "Another frame stays light",
+      "status": "passed"
+    },
+    {
+      "name": "Theme change preserves real storage",
+      "status": "passed"
+    },
+    {
+      "name": "Reset control resets preview theme",
+      "status": "passed"
+    },
+    {
+      "name": "Preview has no horizontal overflow at 320",
+      "status": "passed"
+    },
+    {
+      "name": "Preview has no horizontal overflow at 375",
+      "status": "passed"
+    },
+    {
+      "name": "Preview has no horizontal overflow at 390",
+      "status": "passed"
+    },
+    {
+      "name": "Preview has no horizontal overflow at 768",
+      "status": "passed"
+    },
+    {
+      "name": "Preview has no horizontal overflow at 1440",
+      "status": "passed"
+    },
+    {
+      "name": "Standalone artifact renders three real screens",
+      "status": "passed"
+    },
+    {
+      "name": "Standalone artifact has isolated data",
+      "status": "passed"
+    },
+    {
+      "name": "Standalone artifact selector works",
+      "status": "passed"
+    },
+    {
+      "name": "Standalone HTML renders with embedded assets while network is disabled",
+      "status": "passed"
+    },
+    {
+      "name": "No JavaScript exceptions",
+      "status": "passed"
+    }
+  ],
+  "errors": []
+}

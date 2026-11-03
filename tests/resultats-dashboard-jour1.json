@@ -1,0 +1,97 @@
+{
+  "date": "2026-10-26",
+  "method": "Chromium via HTTP local ; file:// non vérifié (politique navigateur)",
+  "checks": [
+    {
+      "name": "Pourcentage global cohérent avec roadmap.json",
+      "status": "passed",
+      "detail": "15/28 = 54%"
+    },
+    {
+      "name": "28 tâches affichées sans filtre",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "Filtre tâches terminées",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "Filtre en cours vide à la clôture",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "Filtre agent développeur",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "Filtres agent et état combinés",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "name": "Progressions des cinq agents cohérentes",
+      "status": "passed",
+      "detail": "75, 50, 40, 50, 75"
+    },
+    {
+      "name": "Aucun débordement dashboard 320px",
+      "status": "passed",
+      "detail": "{\"scroll\":320,\"viewport\":320}"
+    },
+    {
+      "name": "Aucun débordement dashboard 375px",
+      "status": "passed",
+      "detail": "{\"scroll\":375,\"viewport\":375}"
+    },
+    {
+      "name": "Aucun débordement dashboard 390px",
+      "status": "passed",
+      "detail": "{\"scroll\":390,\"viewport\":390}"
+    },
+    {
+      "name": "Aucun débordement dashboard 1440px",
+      "status": "passed",
+      "detail": "{\"scroll\":1440,\"viewport\":1440}"
+    },
+    {
+      "name": "Aucune exception JavaScript dashboard",
+      "status": "passed",
+      "detail": ""
+    }
+  ],
+  "summary": {
+    "passed": 12,
+    "failed": 0
+  },
+  "global": {
+    "done": 15,
+    "total": 28,
+    "percent": 54
+  },
+  "agents": [
+    {
+      "name": "Chef de projet",
+      "percent": 75
+    },
+    {
+      "name": "Designer UI/UX",
+      "percent": 50
+    },
+    {
+      "name": "Développeur",
+      "percent": 40
+    },
+    {
+      "name": "Testeur mobile",
+      "percent": 50
+    },
+    {
+      "name": "Contenu & idées",
+      "percent": 75
+    }
+  ]
+}
