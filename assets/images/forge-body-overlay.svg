@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1536" fill="none" aria-hidden="true">
+  <defs>
+    <radialGradient id="pec-halo-left" gradientUnits="userSpaceOnUse" cx="469" cy="319" r="191" gradientTransform="translate(0 76) scale(1 .76)">
+      <stop offset="0" stop-color="currentColor" stop-opacity=".61"/>
+      <stop offset=".5" stop-color="currentColor" stop-opacity=".35"/>
+      <stop offset="1" stop-color="currentColor" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="pec-halo-right" gradientUnits="userSpaceOnUse" cx="724" cy="346" r="151" gradientTransform="translate(0 -28) scale(1 1.08)">
+      <stop offset="0" stop-color="currentColor" stop-opacity=".6"/>
+      <stop offset=".5" stop-color="currentColor" stop-opacity=".32"/>
+      <stop offset="1" stop-color="currentColor" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="pec-soft-glow" x="-25%" y="-30%" width="150%" height="160%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+  </defs>
+  <g class="vf-body-glow" stroke-linecap="round" stroke-linejoin="round">
+    <path id="pec-left-glow" class="vf-pec-glow" d="M288 348C304 292 356 244 421 222C479 203 537 215 574 251C597 277 606 313 614 355C623 394 608 430 571 449C527 468 455 467 399 454C345 441 304 408 290 372C286 363 286 356 288 348Z" fill="url(#pec-halo-left)" filter="url(#pec-soft-glow)"/>
+    <path id="pec-right-glow" class="vf-pec-glow" d="M611 249C649 218 702 225 749 254C792 281 820 319 829 362C840 407 826 451 798 472C777 486 741 481 705 467C660 451 636 425 629 389C620 342 630 300 611 249Z" fill="url(#pec-halo-right)" filter="url(#pec-soft-glow)"/>
+    <path id="pec-left" class="vf-pec-outline" d="M288 348C304 292 356 244 421 222C479 203 537 215 574 251C597 277 606 313 614 355C623 394 608 430 571 449C527 468 455 467 399 454C345 441 304 408 290 372C286 363 286 356 288 348Z" stroke="currentColor" stroke-width="3.5" opacity=".74"/>
+    <path id="pec-right" class="vf-pec-outline" d="M611 249C649 218 702 225 749 254C792 281 820 319 829 362C840 407 826 451 798 472C777 486 741 481 705 467C660 451 636 425 629 389C620 342 630 300 611 249Z" stroke="currentColor" stroke-width="3.5" opacity=".74"/>
+    <path id="shoulder-left" class="vf-body-contour" d="M410 207C357 170 279 168 223 187C159 207 115 248 104 306C96 341 100 375 113 400" stroke="currentColor" stroke-width="4" opacity=".54"/>
+    <path id="shoulder-right" class="vf-body-contour" d="M707 220C767 202 829 232 873 279C908 320 922 365 913 413C908 442 900 462 886 480" stroke="currentColor" stroke-width="4" opacity=".54"/>
+    <path id="arm-left" class="vf-body-contour" d="M111 396C79 442 58 493 53 551C49 591 50 619 43 650M244 425C238 483 224 540 202 586C186 621 171 646 159 667" stroke="currentColor" stroke-width="3.5" opacity=".38"/>
+    <path id="arm-right" class="vf-body-contour" d="M895 478C916 520 924 569 930 611C936 645 946 668 956 697M815 488C805 534 803 586 812 633C819 667 834 696 852 719" stroke="currentColor" stroke-width="3.5" opacity=".38"/>
+  </g>
+</svg>

@@ -79,11 +79,23 @@ function validateBackup(data){
  const defaults=defaultDB(),result={...defaults,...data};delete result._forgeBackup;
  const text=(value,label)=>backupText(value,label),id=(value,label)=>backupId(value,label),num=(value,label)=>backupNumber(value,label),int=(value,label)=>backupNumber(value,label,0,Number.MAX_SAFE_INTEGER,true);
  result.profile=backupFields(data.profile,'Profil',defaults.profile,{setup:backupBool,name:(v,l)=>backupText(v,l,150),goal:text,level:(v,l)=>backupText(v,l,100),perWeek:(v,l)=>backupNumber(v,l,1,7,true),avatar:backupAvatar,bio:(v,l)=>backupText(v,l,10000),accent:(v,l)=>backupText(v,l,50)});
- result.settings=backupFields(result.settings,'Réglages',defaults.settings,{theme:(v,l)=>{if(!['light','dark'].includes(v))throw backupError(l+' doit être clair ou sombre.');return v},calories:(v,l)=>backupNumber(v,l,1),protein:(v,l)=>backupNumber(v,l,1),carbs:(v,l)=>backupNumber(v,l,1),fat:(v,l)=>backupNumber(v,l,1),water:(v,l)=>backupNumber(v,l,1),steps:int});
+ result.settings=backupFields(result.settings,'Réglages',defaults.settings,{theme:(v,l)=>{if(!['light','dark'].includes(v))throw backupError(l+' doit être clair ou sombre.');return v},bodyMotion:backupBool,calories:(v,l)=>backupNumber(v,l,1),protein:(v,l)=>backupNumber(v,l,1),carbs:(v,l)=>backupNumber(v,l,1),fat:(v,l)=>backupNumber(v,l,1),water:(v,l)=>backupNumber(v,l,1),steps:int,activityCalories:(v,l)=>backupNumber(v,l,1,30000),exerciseMinutes:(v,l)=>backupNumber(v,l,1,1440),standHours:(v,l)=>backupNumber(v,l,1,24)});
  result.steps=backupObject(result.steps,'Pas');
  for(const [date,value] of Object.entries(result.steps)){backupDay(date,'Pas');backupNumber(value,'Pas',0,200000,true)}
  result.health=backupFields(result.health,'Santé',{pulse:[]},{});
  result.health.pulse=backupList(result.health.pulse,'Pouls',(record,label)=>{const item=backupFields(record,label,{}, {date:backupDay,value:(v,l)=>backupNumber(v,l,30,240,true)});if(item.date===undefined||item.value===undefined)throw backupError(label+' est incomplet.');return item});
+ // Relevés d’activité déclarés : indépendants des repas et des séances enregistrées.
+ const activitySource=backupObject(result.activity,'Activité'),activityMap=Object.create(null);
+ if(Object.keys(activitySource).length>50000)throw backupError('Activité contient trop de journées.');
+ const activityToday=new Date(),activityLastDate=[activityToday.getFullYear(),String(activityToday.getMonth()+1).padStart(2,'0'),String(activityToday.getDate()).padStart(2,'0')].join('-');
+ const activityValidators={activeCalories:(v,l)=>backupNumber(v,l,0,30000),standHours:(v,l)=>backupNumber(v,l,0,24),distanceKm:(v,l)=>backupNumber(v,l,0,1000),floors:(v,l)=>backupNumber(v,l,0,10000,true),energy:(v,l)=>backupNumber(v,l,0,100,true),recovery:(v,l)=>backupNumber(v,l,0,100,true)};
+ for(const [date,value] of Object.entries(activitySource)){
+  backupDay(date,'Activité');if(date>activityLastDate)throw backupError('Un relevé d’activité ne peut pas être daté dans le futur.');
+  const record=backupFields(value,'Activité du '+date,{},activityValidators);
+  if(!Object.keys(activityValidators).some(key=>record[key]!==undefined))throw backupError('Un relevé d’activité ne contient aucune mesure.');
+  activityMap[date]=record;
+ }
+ result.activity=activityMap;
  result.xp=int(result.xp,'XP');result.visitBest=int(result.visitBest,'Record de présence');result.demo=backupBool(result.demo,'Démonstration');
  result.programs=backupUnique(backupList(result.programs,'Programmes',(p,label,pi)=>{
   const program=backupFields(p,label,{next:0},{id,name:text,next:int});id(program.id,label);text(program.name,label);

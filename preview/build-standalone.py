@@ -11,9 +11,10 @@ def read(rel):
     return (ROOT / rel).read_text(encoding='utf-8')
 
 def data_uri(rel):
-    return 'data:image/svg+xml;base64,' + base64.b64encode((ROOT / rel).read_bytes()).decode('ascii')
+    mime = 'image/png' if Path(rel).suffix == '.png' else 'image/svg+xml'
+    return 'data:' + mime + ';base64,' + base64.b64encode((ROOT / rel).read_bytes()).decode('ascii')
 
-images = {p.stem: data_uri(str(p.relative_to(ROOT))) for p in (ROOT / 'assets/images').glob('*.svg')}
+images = {p.stem: data_uri(str(p.relative_to(ROOT))) for p in sorted((ROOT / 'assets/images').iterdir()) if p.suffix in {'.svg', '.png'}}
 favicon = data_uri('assets/icons/favicon.svg')
 
 def inline_css(match):

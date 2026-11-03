@@ -1,0 +1,537 @@
+{
+  "checkedAt": "2026-11-03T13:24:27.490Z",
+  "browser": "154.0.8037.57",
+  "checks": [
+    {
+      "name": "Le corps est une image chargée dans l’aperçu autonome",
+      "status": "passed"
+    },
+    {
+      "name": "L’image du corps est intégrée au fichier autonome",
+      "status": "passed"
+    },
+    {
+      "name": "Les deux couches lumineuses des pectoraux existent",
+      "status": "passed"
+    },
+    {
+      "name": "La carte activité présente Bouger, Exercice et Debout",
+      "status": "passed"
+    },
+    {
+      "name": "La carte des pas possède son historique visuel",
+      "status": "passed"
+    },
+    {
+      "name": "Grille desktop : trois cartes, trois cartes, deux cartes",
+      "status": "passed"
+    },
+    {
+      "name": "Premier rang aligné : héro à gauche, activité au centre, macros à droite",
+      "status": "passed"
+    },
+    {
+      "name": "Deuxième rang aligné : sommeil, pouls, prochaines séances",
+      "status": "passed"
+    },
+    {
+      "name": "Les pas sont au troisième rang et alignés à gauche",
+      "status": "passed"
+    },
+    {
+      "name": "L’espacement des deux rangs reste celui de la grille vidéo",
+      "status": "passed"
+    },
+    {
+      "name": "Le second rang garde une hauteur proche des 280 px de la référence",
+      "status": "passed",
+      "detail": {
+        "height": 280.5
+      }
+    },
+    {
+      "name": "Le haut de la carte des pas est visible au premier écran desktop",
+      "status": "passed",
+      "detail": {
+        "y": 742.5
+      }
+    },
+    {
+      "name": "Corps chargé à 320 px",
+      "status": "passed"
+    },
+    {
+      "name": "Pas de débordement horizontal à 320 px",
+      "status": "passed",
+      "detail": {
+        "width": 320,
+        "scrollWidth": 320,
+        "statsInside": true,
+        "smallButtons": []
+      }
+    },
+    {
+      "name": "Les indicateurs du héro restent dans leur carte à 320 px",
+      "status": "passed"
+    },
+    {
+      "name": "L’animation des pectoraux reste alignée au corps à 320 px",
+      "status": "passed",
+      "detail": {
+        "imageRect": {
+          "x": 85.640625,
+          "y": 174.71875,
+          "width": 223.078125,
+          "height": 334.609375
+        },
+        "glowRect": {
+          "x": 85.640625,
+          "y": 174.71875,
+          "width": 223.078125,
+          "height": 334.609375
+        }
+      }
+    },
+    {
+      "name": "Boutons tactiles suffisants à 320 px",
+      "status": "passed",
+      "detail": []
+    },
+    {
+      "name": "Le raccourci mobile mène aux pas à 320 px",
+      "status": "passed",
+      "detail": {
+        "stepsTop": 84.71875
+      }
+    },
+    {
+      "name": "Corps chargé à 390 px",
+      "status": "passed"
+    },
+    {
+      "name": "Pas de débordement horizontal à 390 px",
+      "status": "passed",
+      "detail": {
+        "width": 390,
+        "scrollWidth": 390,
+        "statsInside": true,
+        "smallButtons": []
+      }
+    },
+    {
+      "name": "Les indicateurs du héro restent dans leur carte à 390 px",
+      "status": "passed"
+    },
+    {
+      "name": "L’animation des pectoraux reste alignée au corps à 390 px",
+      "status": "passed",
+      "detail": {
+        "imageRect": {
+          "x": 102.4375,
+          "y": 92.828125,
+          "width": 277.671875,
+          "height": 416.5
+        },
+        "glowRect": {
+          "x": 102.4375,
+          "y": 92.828125,
+          "width": 277.671875,
+          "height": 416.5
+        }
+      }
+    },
+    {
+      "name": "Boutons tactiles suffisants à 390 px",
+      "status": "passed",
+      "detail": []
+    },
+    {
+      "name": "Le raccourci mobile mène aux pas à 390 px",
+      "status": "passed",
+      "detail": {
+        "stepsTop": 85.21875
+      }
+    },
+    {
+      "name": "Corps chargé à 768 px",
+      "status": "passed"
+    },
+    {
+      "name": "Pas de débordement horizontal à 768 px",
+      "status": "passed",
+      "detail": {
+        "width": 768,
+        "scrollWidth": 768,
+        "statsInside": true,
+        "smallButtons": []
+      }
+    },
+    {
+      "name": "Les indicateurs du héro restent dans leur carte à 768 px",
+      "status": "passed"
+    },
+    {
+      "name": "L’animation des pectoraux reste alignée au corps à 768 px",
+      "status": "passed",
+      "detail": {
+        "imageRect": {
+          "x": 391.359375,
+          "y": 60.890625,
+          "width": 344.96875,
+          "height": 517.453125
+        },
+        "glowRect": {
+          "x": 391.359375,
+          "y": 60.890625,
+          "width": 344.96875,
+          "height": 517.453125
+        }
+      }
+    },
+    {
+      "name": "Boutons tactiles suffisants à 768 px",
+      "status": "passed",
+      "detail": []
+    },
+    {
+      "name": "Corps chargé à 1280 px",
+      "status": "passed"
+    },
+    {
+      "name": "Pas de débordement horizontal à 1280 px",
+      "status": "passed",
+      "detail": {
+        "width": 1280,
+        "scrollWidth": 1280,
+        "statsInside": true,
+        "smallButtons": []
+      }
+    },
+    {
+      "name": "Les indicateurs du héro restent dans leur carte à 1280 px",
+      "status": "passed"
+    },
+    {
+      "name": "L’animation des pectoraux reste alignée au corps à 1280 px",
+      "status": "passed",
+      "detail": {
+        "imageRect": {
+          "x": 405.015625,
+          "y": 105.390625,
+          "width": 293.40625,
+          "height": 440.109375
+        },
+        "glowRect": {
+          "x": 405.015625,
+          "y": 105.390625,
+          "width": 293.40625,
+          "height": 440.109375
+        }
+      }
+    },
+    {
+      "name": "Boutons tactiles suffisants à 1280 px",
+      "status": "passed",
+      "detail": []
+    },
+    {
+      "name": "Accent lime sélectionné",
+      "status": "passed"
+    },
+    {
+      "name": "Accent red sélectionné",
+      "status": "passed"
+    },
+    {
+      "name": "Accent orange sélectionné",
+      "status": "passed"
+    },
+    {
+      "name": "Accent cyan sélectionné",
+      "status": "passed"
+    },
+    {
+      "name": "Accent blue sélectionné",
+      "status": "passed"
+    },
+    {
+      "name": "Accent violet sélectionné",
+      "status": "passed"
+    },
+    {
+      "name": "Accent pink sélectionné",
+      "status": "passed"
+    },
+    {
+      "name": "Les sept accents recolorent les pectoraux",
+      "status": "passed",
+      "detail": [
+        "rgb(181, 239, 0)|none|none",
+        "rgb(255, 69, 69)|none|none",
+        "rgb(255, 151, 27)|none|none",
+        "rgb(0, 210, 223)|none|none",
+        "rgb(82, 138, 255)|none|none",
+        "rgb(179, 76, 255)|none|none",
+        "rgb(245, 42, 197)|none|none"
+      ]
+    },
+    {
+      "name": "Les sept accents recolorent l’activité",
+      "status": "passed",
+      "detail": [
+        "rgb(181, 239, 0)",
+        "rgb(255, 69, 69)",
+        "rgb(255, 151, 27)",
+        "rgb(0, 210, 223)",
+        "rgb(82, 138, 255)",
+        "rgb(179, 76, 255)",
+        "rgb(245, 42, 197)"
+      ]
+    },
+    {
+      "name": "Échap ferme le menu avatar",
+      "status": "passed"
+    },
+    {
+      "name": "Période today : calories actives, minutes de séance, heures debout exactes",
+      "status": "passed",
+      "detail": [
+        300,
+        20,
+        5
+      ]
+    },
+    {
+      "name": "Période week : calories actives, minutes de séance, heures debout exactes",
+      "status": "passed",
+      "detail": [
+        500,
+        30,
+        9
+      ]
+    },
+    {
+      "name": "Période month : calories actives, minutes de séance, heures debout exactes",
+      "status": "passed",
+      "detail": [
+        650,
+        60,
+        12
+      ]
+    },
+    {
+      "name": "Le champ de période conserve le focus après recalcul",
+      "status": "passed"
+    },
+    {
+      "name": "Les données d’activité absentes restent signalées",
+      "status": "passed"
+    },
+    {
+      "name": "Des zéros saisis restent des zéros explicites",
+      "status": "passed"
+    },
+    {
+      "name": "Le vrai carnet charge le corps depuis son fichier local",
+      "status": "passed"
+    },
+    {
+      "name": "Une saisie d’activité invalide ne modifie pas le carnet",
+      "status": "passed"
+    },
+    {
+      "name": "Le formulaire enregistre les six relevés",
+      "status": "passed"
+    },
+    {
+      "name": "Le carnet permet de désactiver son animation",
+      "status": "passed"
+    },
+    {
+      "name": "Activité et pas persistent après rechargement",
+      "status": "passed"
+    },
+    {
+      "name": "La préférence d’animation persiste après rechargement",
+      "status": "passed"
+    },
+    {
+      "name": "Les nouveaux relevés sont compatibles avec l’export/import",
+      "status": "passed"
+    },
+    {
+      "name": "L’import refuse une durée debout impossible",
+      "status": "passed"
+    },
+    {
+      "name": "Les pectoraux sont animés en mode normal",
+      "status": "passed"
+    },
+    {
+      "name": "Le bouton annonce une animation active",
+      "status": "passed"
+    },
+    {
+      "name": "Le bouton permet de suspendre l’animation",
+      "status": "passed"
+    },
+    {
+      "name": "Le bouton permet de relancer l’animation",
+      "status": "passed"
+    },
+    {
+      "name": "La préférence de mouvement réduit immobilise le corps",
+      "status": "passed"
+    },
+    {
+      "name": "Le corps et le dashboard fonctionnent dans le HTML sans réseau",
+      "status": "passed"
+    },
+    {
+      "name": "La démonstration autonome garde un stockage isolé",
+      "status": "passed"
+    },
+    {
+      "name": "Aucune exception JavaScript",
+      "status": "passed",
+      "detail": []
+    }
+  ],
+  "errors": [],
+  "layouts": [
+    {
+      "width": 1280,
+      "hero": {
+        "x": 237,
+        "y": 86,
+        "width": 453.40625,
+        "height": 352
+      },
+      "activity": {
+        "x": 702.40625,
+        "y": 86,
+        "width": 279.890625,
+        "height": 352
+      },
+      "macros": {
+        "x": 994.296875,
+        "y": 86,
+        "width": 268.703125,
+        "height": 352
+      },
+      "sleep": {
+        "x": 237,
+        "y": 450,
+        "width": 334,
+        "height": 280.5
+      },
+      "pulse": {
+        "x": 583,
+        "y": 450,
+        "width": 334,
+        "height": 280.5
+      },
+      "next": {
+        "x": 929,
+        "y": 450,
+        "width": 334,
+        "height": 280.5
+      },
+      "steps": {
+        "x": 237,
+        "y": 742.5,
+        "width": 446.6875,
+        "height": 268.5
+      }
+    },
+    {
+      "width": 320,
+      "scrollWidth": 320,
+      "statsInside": true,
+      "smallButtons": []
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "statsInside": true,
+      "smallButtons": []
+    },
+    {
+      "width": 768,
+      "scrollWidth": 768,
+      "statsInside": true,
+      "smallButtons": []
+    },
+    {
+      "width": 1280,
+      "scrollWidth": 1280,
+      "statsInside": true,
+      "smallButtons": []
+    }
+  ],
+  "passed": 66,
+  "failed": 0,
+  "sourceFileSha256": {
+    "assets/icons/favicon.svg": "626f414a48f4a356213e6644719751b7b31845a33b32a036cbe73d62f0a82917",
+    "assets/images/athlete-fallback.svg": "1728c61c41286f6cd89de0eb055f0694c62089e449ec98eba3a298d6fafa9250",
+    "assets/images/forge-body-overlay.svg": "565ffc65ff1caf59f02c7a4cce2fc7cb86894eb57788738b419c9881f7c0655c",
+    "assets/images/forge-body.png": "22ea14f61f74770f636b3f0ebc3961e5d40b900f94e86403fc3e1cf17cd083a0",
+    "assets/images/hero-auth.svg": "8ed63dea7796fe0fc5ad33bce42eff7a06bca90d078edb3a12c549ab646d4eb2",
+    "assets/images/hero-summary.svg": "d577f5138d7f219102ab992831d61e47b2682b38d37fa95c2851e988609b21e1",
+    "assets/images/hero-today.svg": "1728c61c41286f6cd89de0eb055f0694c62089e449ec98eba3a298d6fafa9250",
+    "css/base.css": "c6989a428d39cbe799fc760c187aa531b0a25cdbb23b83509f07d673c15a548c",
+    "css/forge-elite.css": "70a396602075abb6b8a1f9a3cdf4eb67d9cd9c91ef6a130e946ab5660f4e8950",
+    "css/home-video.css": "eb4e45bb016cbda361a921afde9a7efea8ac8134331669b07d5f87fcde06edf6",
+    "css/home.css": "192a85f2e8e594c8a9571466e4a241d8b2f85ecaef0eb6a83341cec2b995ba64",
+    "css/library.css": "d076044969ec8cae6479e0ab9832ab7eaa38914b1682f0c151adce4cdd87c523",
+    "css/monochrome.css": "51f898ac2b795a1440eea812fa4ff97cd94b903655d7313e4477dc8a50230226",
+    "css/reference.css": "387c97c0ae0b45520d3daaa48c93d234d4f78f0d8bc3d10a8ed0196701bf75f4",
+    "css/video-forge.css": "ab885620d4bb90afbf152888541c5190b9e78428bcaf70c70d598e1761d92bf3",
+    "index.html": "bc9d9215b49c9d08837e3c0218e8e7cef864da3664dfe48349d53ad6c17d609f",
+    "js/app.js": "324bd061eb5e5dd7b469eb1aef0045fa80618df3a9e22561d80902b1273c0dfd",
+    "js/core/auth.js": "12cf96041c0c2c808cf64e85a44f496bc418e177ad15961552da276f93b45eaf",
+    "js/core/default-db.js": "e0f02d2e4f783ad7664e5f4c78852e6e6638e900b51ae767227e8170df4e9f17",
+    "js/core/gamification.js": "65bd1a5e90153ed818a119facaa8d2ce9680aa5736cd2f1598367a6ce24ec99b",
+    "js/core/layout.js": "8bdf817f73d1f5dd53742d61cb71ede9e7961d6daa17f98cd245d086ed49e704",
+    "js/core/router.js": "f2de7964901cc69c4fea0c7e462ffea654aa54a00b2d5c702b7da29397250555",
+    "js/core/state.js": "43bc563512a930f6b4023009ac4486e7c5224bb3b838c7c5bb4c60351022c55b",
+    "js/core/storage.js": "c1fd907e849adc4208ca04967395ce722334fef59df8bdb665ade115e513a813",
+    "js/core/streak.js": "e0901fc43af7953a1db4591ed510283cc3eab1512e8a7ab3bcf31c1d70d838c3",
+    "js/core/ui.js": "64450b87ff20a3c5409914c933b75c71fee8dbf7ce62c9d78ad3a3bc0c8bed32",
+    "js/core/utils.js": "2b6b69b4773a30ccdae92926b40c7565d0b4726b19262ad6a3905e62a9009c7d",
+    "js/data/avatars.js": "7a38751f615a0eabb35bf6a3675b99e54424f8efcfe043a28c5e2f8f32190675",
+    "js/data/catalog.js": "fa5ac6f436e4554dab842f59699d09696448c010e4d289a6ac4c6d2f159765ae",
+    "js/features/activity.js": "0183fdc9956524ee2aca587c567a37530ded238a4a8d8a9e655d3f3258560579",
+    "js/features/ai.js": "a1d8c13d1901ccc22056b2a346d437093a1e054c2b58271a4bf83c79fd570b61",
+    "js/features/calendar.js": "0b90296ad4945c1e94dc06bf6ac3f655fe6de060a88f8855c2b06d83e957ab79",
+    "js/features/community.js": "20a9e535221ba21e018f7cce795afe65a159db909815754bf0f6e1e2c3b37e97",
+    "js/features/exercises.js": "844cf64bdd312e77344920a2515f6268249d5ee53ff328b26d56b0525ff051e1",
+    "js/features/goals.js": "1200cd729973b20869dd68bfc08aa9f29444b665b6fdf7ce3fd51985c334f28f",
+    "js/features/habits.js": "5af9da856077fe541adcc055c777d32e40a6eafa8fca653b957088914ee5f4e4",
+    "js/features/history.js": "4b86f11ae38f2d316b96b1f118c41d99710c509c85fad127c38b4bd2c4e4a678",
+    "js/features/home-video.js": "da5c7e24130b6f01448115303754cff2d3594f09f7d5bb574f221021ba665c51",
+    "js/features/home.js": "0cf7d64daed42d490cc21ded7cfbf9dc7e6e80d44ffd9a9cbc6748bb9ee9ea34",
+    "js/features/nutrition.js": "444bcc8c6122a541ca1bb008f83076132d5f5a945421c29bbcf42421d0a8d3fc",
+    "js/features/photos.js": "5b3327b5508bf567a15b4bfe6dd75e228f1c2766849961f56d532013a582b54a",
+    "js/features/profile.js": "bcd3f27d852637c915938d1ed0c73206e8b402971b311143ef46872edace62c0",
+    "js/features/progress.js": "682e299a5f4be5604b1435ca13804c1c0a4e1cc0fce319fdadb4a8a9162eb803",
+    "js/features/reminders.js": "92e1a2db28cdd81a5b8e506f9d831368b744d79d828ce61e30ed19dad32aaefc",
+    "js/features/screens.js": "95154373faaf8715281808db6a45b1a25e61dad314278423e7fbdb4af6163462",
+    "js/features/settings.js": "25251f4c5e7d81522767c90c336f6d823149bd75069059683b666505f43c1b17",
+    "js/features/setup.js": "f1136bc573e55bcabfa27d5c008571df29683773c32fe42bbbfd142ca906a8b7",
+    "js/features/video-forge.js": "829c2c4ee98c6f34f2211b1a696deb40e0175fe901ad785d60dd1a49005feaff",
+    "js/features/whey.js": "509698a6d74905a9a354ceccce1cbc532d2e10db24ae8340fbe54235dbbe3d02",
+    "js/features/workouts.js": "0e1878185c2d66bf056f15fa1480af3975bdf518d22e1e44c4bf1980306d22e0",
+    "preview/build-standalone.py": "030cedd8e6e1500df4623beec088c7d6ae3154e3a5a1057f27a33473d970d18f",
+    "preview/demo-data.js": "a25523cd9a46de45d7344edadf0896b7d3817ce11b37577fad43c4dffd539b59",
+    "preview/demo-store.js": "26e8e9463babd507094be3b18f064a15af918f4d4ea05f37a17e5bfc4e071f2c",
+    "preview/demo.html": "5cd75fb5eab055521e1a2e0f9f2898c0b06e765ed3e1b7822d81baee7ff18817",
+    "preview/phone.css": "a0131f9200cb552e1b80ba8dfa2865876c322be61e73429f7c6f6a896d5b1925",
+    "preview/phone.html": "02dff796ced63226382ccea3470ac5cf81a876f7cc7c167c283385a200820fca",
+    "preview/phone.js": "59939f4a4f20c304ad2cc3ead75756b7ca930f3ab73a126997353cd2df8de78a"
+  },
+  "sourceSha256": "bbd68693c223a1e524564dbe88a00e2ef2faf262014fa87478fc9fcb3b238863",
+  "apercuSha256": "1cd1e73516df718979e11bc5a5c7d1bbcc0e621272181ccddfd09c7d9f1d7baf",
+  "testSha256": "a951170d0f96a884539467d5b12d02e6859a382575bc10df8a5d870a2f5ac02b",
+  "finishedAt": "2026-11-03T13:24:33.848Z"
+}

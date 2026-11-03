@@ -25,8 +25,18 @@ if (!window.__forgeDemoIsolated) throw new Error('Données démo interdites sans
   ];
   DB.water[dateAgo(0)] = 1800;
   [6400,8100,7300,9200,10040,11500,12845].forEach((value,i)=>DB.steps[dateAgo(6-i)]=value);
+  // Mesures fictives de la démonstration isolée, jamais des calculs issus des repas.
+  [
+    {activeCalories:420,standHours:7,distanceKm:4.2,floors:6,energy:72,recovery:78},
+    {activeCalories:510,standHours:8,distanceKm:5.4,floors:8,energy:76,recovery:80},
+    {activeCalories:470,standHours:8,distanceKm:4.9,floors:7,energy:74,recovery:82},
+    {activeCalories:620,standHours:9,distanceKm:6.1,floors:10,energy:79,recovery:85},
+    {activeCalories:690,standHours:9,distanceKm:6.8,floors:11,energy:82,recovery:88},
+    {activeCalories:745,standHours:10,distanceKm:7.7,floors:12,energy:84,recovery:89},
+    {activeCalories:812,standHours:10,distanceKm:8.6,floors:14,energy:86,recovery:91}
+  ].forEach((record,i)=>DB.activity[dateAgo(6-i)]=record);
   [7.8,7.4,7.6,7,7.2,7.1,6.8].forEach((hours,i)=>DB.sleep[dateAgo(6-i)]={hours,quality:4});
-  DB.health={pulse:[72,78,69,73,74,86,98].map((value,i)=>({date:dateAgo(6-i),value}))};
+  DB.health={pulse:[72,78,69,73,74,86,72].map((value,i)=>({date:dateAgo(6-i),value}))};
   DB.profile.accent='lime';
   DB.habitLog[dateAgo(0)+'_h2'] = true;
   DB.habitLog[dateAgo(0)+'_h3'] = true; DB.habitLog[dateAgo(0)+'_h4'] = true;

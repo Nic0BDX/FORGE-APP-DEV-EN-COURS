@@ -63,3 +63,11 @@ Les résultats exécutés et les limites restantes figurent dans `TESTS_JOUR_1.m
 
 ### Navigation
 - Barre mobile : Accueil, Séances, Nutrition, Souvenirs, Progrès. Menu ordinateur complet avec Coach IA.
+
+## Jour 4 — Accueil animé
+
+- Corps original, lumière pectorale animée liée aux sept accents, pause mémorisée et réduction de mouvement.
+- Anneaux Bouger / Exercice / Debout, séparés de la nutrition ; relevés manuels et migration des carnets.
+- Pas du jour : courbe, distance, calories actives, étages, raccourci mobile.
+- Grille3+3+2, carte de repères réduite, densité des séances corrigée et vignettes locales.
+- Aperçu autonome enrichi, 223 contrôles réussis ; détails dans TESTS_ACCUEIL.md.

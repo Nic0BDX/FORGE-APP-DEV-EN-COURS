@@ -1,37 +1,39 @@
 # Forge — Point de reprise
 
 **Mode : PAUSE demandée par le propriétaire.** Attendre une nouvelle demande avant de poursuivre.
-Jour en cours : **4**. Dernier checkpoint : **2026-11-03T11:14:44+01:00** (Europe/Paris).
+Jour en cours : **4**. Dernier checkpoint : **2026-11-03T14:28:05+01:00** (Europe/Paris).
 État du jour : **en cours**.
 
 ## Tâches terminées — ne pas les refaire
 
-**23/32 tâches terminées (72 %).**
+**26/35 tâches terminées (74 %).**
 
 - Jour 1 : P01, P02, P03, U01, U02, D01, D02, D03, D04, T01, T02, T03, C01, C02, C04.
 - Jour 2 : P05, D05, D06.
 - Jour 3 : U03, D07, T05.
-- Jour 4 : V01, V02.
+- Jour 4 : V01, V02, A01, A02, A03.
 
 ## Travail exactement en cours
 
-**Tâche : V03**
+**Tâche : Aucune : choisir la prochaine tâche utile.**
 
-ÉTAPE VIDÉO LIVRÉE, PAUSE À LA DEMANDE DU PROPRIÉTAIRE. V01 et V02 terminées : coque noire/verre/citron, sept accents persistants, recherche, menu avatar, périodes réelles, animations et grilles Forge. Programme, nutrition, sommeil, santé et progression adaptés ; pas et pouls manuels avec validation des sauvegardes. APERCU.html est le site complet autonome ; preview/phone.html conserve la galerie. Validation : 33 contrôles sur 342 états, 71 contrôles vidéo, 22 contrôles aperçu ; aucun échec. Ouverture file:// non exécutée car bloquée par le navigateur géré. C03 reste à relire ; V03 reste ouverte pour la comparaison exhaustive et les images. Dernières captures dans tests/captures-video, écarts dans docs/COMPARAISON_VIDEO.md. Les agents secondaires ont atteint leur quota ; intégration finale effectuée par le responsable principal. Livrable conservé : Forge-Jour-4-Etape-video.zip. Attendre une nouvelle demande, ne pas enchaîner.
+ACCUEIL ANIMÉ TERMINÉ ET VALIDÉ : A01, A02 et A03 livrées. Corps original et lumière pectorale liée aux sept accents, pause mémorisée et réduction des animations ; grille 3+3+2, Bouger / Exercice / Debout, pas avec courbe, distance, calories actives et étages. Valeurs manuelles inconnues distinctes de zéro, minutes calculées depuis les séances. Validation : 31 contrôles de données, 66 ciblés accueil, 33 régression sur 342 états, 71 interactions, 22 aperçu ; 223 contrôles réussis, aucun débordement ni exception JS. APERCU.html autonome testé hors réseau ; file:// et appareils physiques non testés. Desktop1280 : rang1 y86/h352, rang2 y450/h280,5, pas y742,5. Livrable Forge-Accueil-Anime.zip, détails TESTS_ACCUEIL.md et docs/BILAN_ACCUEIL.md. La licence ajoutée sur GitHub a été préservée. Cette demande est terminée ; les finitions générales restent en pause.
 
 Les étapes ci-dessus décrivent les fichiers réellement préparés. Une tâche en cours ne donne aucun crédit partiel.
 
 ## Prochaine action
 
-**Prochaine tâche : C03**
+**Prochaine tâche : V03**
 
-À la prochaine demande : lire les écarts de docs/COMPARAISON_VIDEO.md et les captures ; finir V03 (comparaison de chaque écran et visuels fournis), puis C03 et U04. Conserver tous les parcours et ne publier que du code testé. Ne pas relancer les tâches V01/V02 déjà validées.
+Attendre une nouvelle demande. Lire ce point et docs/BILAN_ACCUEIL.md. Ne pas refaire A01/A02/A03. Restent C03 (relecture générale), U04 (accessibilité), V03 (comparaison des autres écrans), P04 et cinq blocages externes. Ne pas prétendre que le corps original est le fichier exact de la vidéo.
 
 ## Preuves du dernier checkpoint
 
-- `tests/resultats-video-regression.json` · SHA-256 `50668c88c9ea05cc98cd0aaf668d30c29799c2b43ec8f927eecdd1860c37d29f`
-- `tests/resultats-video-interactions.json` · SHA-256 `e91f41c2d11f09413d9ef6f825c42dd8b69c81a211458c1ac97ef5b2dfb1a93e`
-- `tests/resultats-apercu-video.json` · SHA-256 `3b8955573f763243cb9ad0d6836b5f9e9e1ce6e23162d471364bcca10d888704`
+- `tests/resultats-activite-donnees.json` · SHA-256 `eaaaa6b9fd1bbdd48f961a005e08a45d3d2038a504e5611a611ff1cefcd4a9f0`
+- `tests/resultats-accueil-anime.json` · SHA-256 `1f326d2f26bb428383bd9ea50cb30854f5c6822dc0655cf05baabb028f8b7c9a`
+- `tests/resultats-accueil-regression.json` · SHA-256 `1bcff4062baca2855465b4193486562a127c5589e8d338d3e5b3128a5f566b76`
+- `tests/resultats-accueil-interactions.json` · SHA-256 `4761472b902fb590cd3cbd7785e289c7eaa3ee8182dcf1f0a062bb03842f4041`
+- `tests/resultats-accueil-apercu.json` · SHA-256 `521dd811e71c51f71d80a57a88a0ca05c796ad8cca907a3c1224f8f8fb6e4f36`
 
 ## Archives et procédure de reprise
 

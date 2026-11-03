@@ -335,6 +335,33 @@
       "status": "en_cours",
       "completed_day": null,
       "evidence": "Rapport de comparaison vidéo et tests à produire"
+    },
+    {
+      "id": "A01",
+      "agent": "design",
+      "priority": "P0",
+      "title": "Créer le corps du héro et son éclairage pectoral animé selon la vidéo",
+      "status": "terminee",
+      "completed_day": 4,
+      "evidence": "tests/resultats-accueil-anime.json ; docs/COMPARAISON_VIDEO.md"
+    },
+    {
+      "id": "A02",
+      "agent": "dev",
+      "priority": "P0",
+      "title": "Aligner l’accueil, les anneaux d’activité et la carte des pas sur la référence",
+      "status": "terminee",
+      "completed_day": 4,
+      "evidence": "tests/resultats-activite-donnees.json ; tests/resultats-accueil-anime.json ; tests/resultats-accueil-regression.json"
+    },
+    {
+      "id": "A03",
+      "agent": "test",
+      "priority": "P0",
+      "title": "Comparer et tester l’accueil animé sur mobile, desktop et aperçu autonome",
+      "status": "terminee",
+      "completed_day": 4,
+      "evidence": "tests/resultats-activite-donnees.json ; tests/resultats-accueil-anime.json ; tests/resultats-accueil-regression.json ; tests/resultats-accueil-interactions.json ; tests/resultats-accueil-apercu.json"
     }
   ],
   "blockers": [
@@ -345,9 +372,9 @@
     "L’ouverture directe file:// est interdite par le navigateur de test géré : les aperçus sont validés via HTTP, pas par double-clic dans cet environnement."
   ],
   "next_steps": [
-    "Pause demandée : ne pas enchaîner une nouvelle journée avant instruction du propriétaire.",
-    "Finir V03 : comparaison détaillée de tous les écrans avec la vidéo et derniers ajustements ; intégrer la silhouette lorsqu’elle sera fournie.",
-    "Finaliser C03, puis U04 et P04. Les services distants restent bloqués."
+    "Mission accueil A01–A03 livrée après validation ; attendre une prochaine demande pour la suite.",
+    "Finaliser C03 : relecture des messages et explications des nouvelles données.",
+    "Réaliser U04 (accessibilité complète), puis terminer V03 sur les autres écrans et P04."
   ],
   "mode": "paused"
 }

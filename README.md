@@ -2,18 +2,18 @@
 
 **Plus qu'une app, une discipline.**
 
-Le projet complet est disponible dans ce dépôt. Pour récupérer la livraison validée en un fichier : [télécharger le ZIP du Jour 4](livraisons/Forge-Jour-4-Etape-video.zip) ([empreinte SHA-256](livraisons/Forge-Jour-4-Etape-video.zip.sha256)). Décompresser le ZIP pour ouvrir le site et son aperçu autonome.
+Le projet complet est disponible dans ce dépôt. Dernière livraison : [Forge — Accueil animé](https://github.com/Nic0BDX/SITE-AGENTS-CLAUDE-FORGE/raw/refs/heads/main/livraisons/Forge-Accueil-Anime.zip). L’archive précédente reste dans `livraisons/`. Décompresser le ZIP pour ouvrir le site et **APERCU.html**, la démonstration autonome complète.
 
 Un carnet de musculation, nutrition, habitudes et progression, conçu d’abord pour le téléphone. Le projet fourni a été conservé : HTML, CSS et JavaScript natifs, sans framework ni compilation. Les comptes et les données restent dans le navigateur.
 
-**Version du Jour 4 — étape vidéo validée, travail en pause à ta demande.** Le site reprend désormais la direction noire/verre sombre/citron de la vidéo MP4 fournie. L’ancien style ivoire/pin reste seulement dans l’historique des Jours 1 à 3. La fidélité visuelle complète n’est pas encore déclarée terminée : la silhouette et d’autres images sont réservées, et la comparaison de tous les écrans reste à finaliser.
+**Jour 4 — accueil animé finalisé et testé.** La dernière demande porte sur l’accueil de la vidéo : le corps et l’éclairage des pectoraux sont intégrés, les anneaux représentent maintenant **Bouger / Exercice / Debout**, et **Pas du jour** montre courbe, distance, calories actives et étages. Le rendu desktop suit la grille **3 + 3 + 2** ; un raccourci vers les pas apparaît sur mobile. La mission reste limitée à l’accueil : les autres finitions du projet ne sont pas déclarées terminées.
 
 Le ZIP contient le site complet, **APERCU.html** autonome, les sources, les tests, le journal, **AVANCEMENT.html**, la feuille de route et **POINT_DE_REPRISE.md**. Lors de la prochaine demande, repartir de ce dernier fichier sans refaire les journées validées. Les archives antérieures sont conservées.
 
 <!-- FORGE_CURRENT_START -->
-**État courant : Jour 4 · en pause · 23/32 tâches terminées (72 %).**
+**État courant : Jour 4 · en pause · 26/35 tâches terminées (74 %).**
 
-Dernier point enregistré : 2026-11-03T11:14:44+01:00. Travail courant : **V03**.
+Dernier point enregistré : 2026-11-03T14:28:05+01:00. Travail courant : **aucune tâche active**.
 
 Lire [POINT_DE_REPRISE.md](POINT_DE_REPRISE.md) pour reprendre sans refaire les tâches livrées. Archive courante : `Forge-Actuel.zip` ; archives quotidiennes conservées.
 <!-- FORGE_CURRENT_END -->
@@ -41,7 +41,7 @@ Puis ouvre l’adresse locale `http://localhost:8080` dans ton navigateur. Les f
 
 Fond noir presque pur, cartes en verre sombre avec bord fin et coins arrondis, textes blancs/gris et accent citron. La sidebar, la barre supérieure, les anneaux d’activité, le donut, les barres de sommeil et la courbe du pouls suivent les composants observés. Le menu avatar propose sept accents persistants : vert, rouge, orange, cyan, bleu, violet et rose. Les périodes, la recherche, les menus, les transitions et les animations sont fonctionnels. Le mode clair préexistant reste accessible ; le noir est la valeur par défaut.
 
-Les écrans Programme, Nutrition, Sommeil, Santé et Progression reprennent les grilles sombres. Les fonctionnalités précédentes restent accessibles. Les pas et le pouls sont des relevés manuels, validés dans les sauvegardes ; aucun capteur n’est connecté. Les données de démonstration restent isolées.
+Les écrans Programme, Nutrition, Sommeil, Santé et Progression reprennent les grilles sombres. Les fonctionnalités précédentes restent accessibles. Les pas, le pouls et les autres mesures d’activité sont des relevés manuels, validés dans les sauvegardes ; aucun capteur n’est connecté. Les données de démonstration restent isolées.
 
 Voir [docs/REFERENCE_VIDEO.md](docs/REFERENCE_VIDEO.md) et [docs/COMPARAISON_VIDEO.md](docs/COMPARAISON_VIDEO.md).
 
@@ -52,6 +52,16 @@ Une base **ivoire**, du **vert pin** pour les actions, de la **sauge** pour les 
 La typographie utilise les polices système pour rester rapide et disponible sans téléchargement. Les illustrations SVG et les avatars proposés sont locaux. Les boutons, formulaires, navigation et cartes partagent le même langage visuel. Les préférences de réduction d’animations sont prises en compte.
 
 Détails et valeurs de design : [`docs/DESIGN.md`](docs/DESIGN.md). Charte de ton et propositions : [`docs/CONTENU_ET_IDEES.md`](docs/CONTENU_ET_IDEES.md).
+
+## Accueil animé — utilisation et données
+
+- **Corps et lumière pectorale** : illustration originale locale, tracés SVG superposés, pulsation douce, sept couleurs d’accent. Le bouton pause dans la carte mémorise la préférence par compte. Avec une préférence système de réduction des animations, la lumière reste fixe. Cet effet est décoratif.
+- **Bouger / Exercice / Debout** : calories actives et heures debout renseignées avec **Ajouter mes relevés** ; minutes d’exercice issues des séances enregistrées. Les périodes recalculent les totaux et les repères. Les calories alimentaires restent uniquement dans le donut nutritionnel.
+- **Énergie / Récupération** : ressentis déclarés de 0 à 100, jamais des scores de santé calculés. Sans mesure, l’interface montre « — » ; un zéro saisi reste un zéro.
+- **Pas du jour** : saisie conservée, courbe sur sept jours, repère et pourcentage. Distance, calories actives et étages proviennent des relevés manuels, sans estimation inventée à partir des pas.
+- **Sources** : `js/features/home-video.js`, `js/features/activity.js`, `css/home-video.css`, `assets/images/forge-body.png` et `forge-body-overlay.svg`. L’aperçu embarque aussi le PNG et fonctionne sans réseau.
+
+L’accueil passe **66 contrôles ciblés**, **33 contrôles de non-régression sur 342 états**, **71 contrôles d’interactions**, **22 contrôles d’aperçu** et **31 contrôles de données**. Les captures et les limites figurent dans [TESTS_ACCUEIL.md](TESTS_ACCUEIL.md) et [docs/BILAN_ACCUEIL.md](docs/BILAN_ACCUEIL.md). Aucune vérification sur téléphone physique ni promesse de copie pixel à pixel des photographies de la vidéo.
 
 ## Fonctionnalités conservées
 
@@ -82,7 +92,7 @@ La demande vidéo a remplacé l’ordre initial de la journée. **V01** couvre l
 
 **À terminer plus tard :** V03, comparaison exhaustive avec la vidéo, finition des images et derniers écarts ; C03, relecture éditoriale finale ; U04, audit complet d’accessibilité ; P04, revue de publication. Ne pas confondre ce ZIP validé fonctionnellement avec une copie visuelle finale ou un service prêt à publier. Les cinq agents avaient atteint leur quota : la dernière intégration et les tests ont été effectués par le responsable principal.
 
-Détails : [JOURNAL_JOUR_4.md](JOURNAL_JOUR_4.md), [TESTS_VIDEO.md](TESTS_VIDEO.md), [POINT_DE_REPRISE.md](POINT_DE_REPRISE.md). La suite est suspendue à la demande du propriétaire.
+Détails : [JOURNAL_JOUR_4.md](JOURNAL_JOUR_4.md), [TESTS_VIDEO.md](TESTS_VIDEO.md), [POINT_DE_REPRISE.md](POINT_DE_REPRISE.md). Cette livraison intermédiaire a ensuite été complétée par la mission « Accueil animé » décrite ci-dessus ; les autres finitions restent ouvertes.
 
 ## Jour 3 — Travail vérifié
 

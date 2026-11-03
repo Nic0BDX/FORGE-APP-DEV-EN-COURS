@@ -9,3 +9,5 @@ Style observé : noir presque pur, surfaces verre gris-noir à léger dégradé,
 La silhouette et les photos de la référence ne sont pas réutilisées. Un emplacement explicite est prévu pour l’image que le propriétaire fournira. Aucune marque de la référence dans le produit. Les données de démonstration sont fictives et isolées du carnet réel.
 
 Les agents secondaires ont atteint leur quota pendant C03. Les rôles restent attribués dans la feuille de route ; le responsable principal réalise cette intégration, sans prétendre que les agents ont exécuté de nouveaux tests.
+
+Mise à jour de la mission accueil : le corps réservé a été remplacé par un visuel original avec éclairage pectoral animé. Les cinq agents ont participé à cette reprise ciblée. Voir BILAN_ACCUEIL.md pour les mesures de comparaison et les tests.

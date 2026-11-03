@@ -52,3 +52,41 @@ Avancement : **22/32 = 69 %**. Prochaine tâche : **V03**.
 Preuves : `tests/resultats-video-regression.json`, `tests/resultats-video-interactions.json`, `tests/resultats-apercu-video.json`.
 
 Avancement : **23/32 = 72 %**. Prochaine tâche : **C03**.
+
+## Reprise limitée : terminer l’accueil animé
+
+À la nouvelle demande du propriétaire, l’équipe a repris seulement l’accueil. A01 : le Designer a comparé la vidéo et tracé les pectoraux sur le nouveau corps. A02 : le Développeur a ajouté les relevés manuels et leur validation ; le responsable principal a intégré la grille, la silhouette, l’animation et les cartes. Le responsable Contenu a précisé les libellés et la distinction entre calories alimentaires et actives. A03 : le Testeur a vérifié alignement, animations, sept couleurs, commandes, mobile et sauvegarde. Le Chef a préparé le plan et le bilan.
+
+Résultat : 223 contrôles réussis dans cinq suites, dont33contrôles sur342états. Les cartes de la deuxième rangée conservent280,5px à1280px ; les pas commencent à742,5px. Aucun parcours retiré. Le corps est une illustration originale animée par une lumière décorative ; les données du carnet restent des saisies ou des durées de séances réelles. Aucun capteur n’est raccordé.
+
+Livraison validée : `Forge-Accueil-Anime.zip`, aperçu autonome et sources dans GitHub. La licence ajoutée entre-temps par le propriétaire a été récupérée sans écrasement. Les travaux généraux C03, V03, U04 et P04 ne sont pas déclarés terminés. À la fin de cette mission, attendre une prochaine demande plutôt qu’enchaîner des changements sur les autres écrans.
+
+## Checkpoint 2026-11-03T14:27:09+01:00
+
+✅ **A01 — Créer le corps du héro et son éclairage pectoral animé selon la vidéo** · Designer UI/UX · terminé Jour 4.
+
+A01 validée : corps original intégré à la place du placeholder, pectoraux tracés sur SVG, éclairage pulsé suivant les sept accents, pause par compte et réduction des animations. Les tests vérifient alignement image/calque aux quatre largeurs. Mission limitée à l’accueil ; ne pas reprendre les autres écrans.
+
+Preuves : `tests/resultats-accueil-anime.json`, `docs/COMPARAISON_VIDEO.md`.
+
+Avancement : **24/35 = 69 %**. Prochaine tâche : **A03**.
+
+## Checkpoint 2026-11-03T14:27:20+01:00
+
+✅ **A02 — Aligner l’accueil, les anneaux d’activité et la carte des pas sur la référence** · Développeur · terminé Jour 4.
+
+A02 validée : grille desktop 3+3+2 conservée, bloc de repères du héro réduit, anneaux Bouger / Exercice / Debout séparés de la nutrition. Pas du jour enrichi par courbe, distance, calories actives, étages et accès mobile. Six relevés manuels facultatifs avec sauvegarde atomique, migration des anciens carnets et valeurs inconnues distinctes de zéro. Les parcours précédents restent disponibles. Le README explique les mesures et leurs limites.
+
+Preuves : `tests/resultats-activite-donnees.json`, `tests/resultats-accueil-anime.json`, `tests/resultats-accueil-regression.json`.
+
+Avancement : **25/35 = 71 %**. Prochaine tâche : **V03**.
+
+## Checkpoint 2026-11-03T14:28:05+01:00
+
+✅ **A03 — Comparer et tester l’accueil animé sur mobile, desktop et aperçu autonome** · Testeur mobile · terminé Jour 4.
+
+ACCUEIL ANIMÉ TERMINÉ ET VALIDÉ : A01, A02 et A03 livrées. Corps original et lumière pectorale liée aux sept accents, pause mémorisée et réduction des animations ; grille 3+3+2, Bouger / Exercice / Debout, pas avec courbe, distance, calories actives et étages. Valeurs manuelles inconnues distinctes de zéro, minutes calculées depuis les séances. Validation : 31 contrôles de données, 66 ciblés accueil, 33 régression sur 342 états, 71 interactions, 22 aperçu ; 223 contrôles réussis, aucun débordement ni exception JS. APERCU.html autonome testé hors réseau ; file:// et appareils physiques non testés. Desktop1280 : rang1 y86/h352, rang2 y450/h280,5, pas y742,5. Livrable Forge-Accueil-Anime.zip, détails TESTS_ACCUEIL.md et docs/BILAN_ACCUEIL.md. La licence ajoutée sur GitHub a été préservée. Cette demande est terminée ; les finitions générales restent en pause.
+
+Preuves : `tests/resultats-activite-donnees.json`, `tests/resultats-accueil-anime.json`, `tests/resultats-accueil-regression.json`, `tests/resultats-accueil-interactions.json`, `tests/resultats-accueil-apercu.json`.
+
+Avancement : **26/35 = 74 %**. Prochaine tâche : **V03**.

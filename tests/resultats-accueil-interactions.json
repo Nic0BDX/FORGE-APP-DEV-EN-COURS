@@ -1,0 +1,292 @@
+{
+  "checkedAt": "2026-11-03T13:20:56.902Z",
+  "passed": 71,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "La démo ouvre le dashboard sombre Forge",
+      "status": "passed"
+    },
+    {
+      "name": "Accent lime appliqué et sélectionné",
+      "status": "passed"
+    },
+    {
+      "name": "Accent red appliqué et sélectionné",
+      "status": "passed"
+    },
+    {
+      "name": "Accent orange appliqué et sélectionné",
+      "status": "passed"
+    },
+    {
+      "name": "Accent cyan appliqué et sélectionné",
+      "status": "passed"
+    },
+    {
+      "name": "Accent blue appliqué et sélectionné",
+      "status": "passed"
+    },
+    {
+      "name": "Accent violet appliqué et sélectionné",
+      "status": "passed"
+    },
+    {
+      "name": "Accent pink appliqué et sélectionné",
+      "status": "passed"
+    },
+    {
+      "name": "Les sept accents changent réellement les anneaux",
+      "status": "passed"
+    },
+    {
+      "name": "Échap ferme le menu et restitue le focus",
+      "status": "passed"
+    },
+    {
+      "name": "Recherche ouvre Nutrition",
+      "status": "passed"
+    },
+    {
+      "name": "Période nutrition recalcule les données",
+      "status": "passed"
+    },
+    {
+      "name": "Période sommeil affiche 30 journées",
+      "status": "passed"
+    },
+    {
+      "name": "Infobulle visible au survol",
+      "status": "passed"
+    },
+    {
+      "name": "Cloche ouvre les rappels",
+      "status": "passed"
+    },
+    {
+      "name": "home sans débordement à 320",
+      "status": "passed"
+    },
+    {
+      "name": "program sans débordement à 320",
+      "status": "passed"
+    },
+    {
+      "name": "nutrition sans débordement à 320",
+      "status": "passed"
+    },
+    {
+      "name": "sleep sans débordement à 320",
+      "status": "passed"
+    },
+    {
+      "name": "health sans débordement à 320",
+      "status": "passed"
+    },
+    {
+      "name": "progress sans débordement à 320",
+      "status": "passed"
+    },
+    {
+      "name": "memories sans débordement à 320",
+      "status": "passed"
+    },
+    {
+      "name": "beforeafter sans débordement à 320",
+      "status": "passed"
+    },
+    {
+      "name": "coach sans débordement à 320",
+      "status": "passed"
+    },
+    {
+      "name": "calendar sans débordement à 320",
+      "status": "passed"
+    },
+    {
+      "name": "profile sans débordement à 320",
+      "status": "passed"
+    },
+    {
+      "name": "premium sans débordement à 320",
+      "status": "passed"
+    },
+    {
+      "name": "home sans débordement à 390",
+      "status": "passed"
+    },
+    {
+      "name": "program sans débordement à 390",
+      "status": "passed"
+    },
+    {
+      "name": "nutrition sans débordement à 390",
+      "status": "passed"
+    },
+    {
+      "name": "sleep sans débordement à 390",
+      "status": "passed"
+    },
+    {
+      "name": "health sans débordement à 390",
+      "status": "passed"
+    },
+    {
+      "name": "progress sans débordement à 390",
+      "status": "passed"
+    },
+    {
+      "name": "memories sans débordement à 390",
+      "status": "passed"
+    },
+    {
+      "name": "beforeafter sans débordement à 390",
+      "status": "passed"
+    },
+    {
+      "name": "coach sans débordement à 390",
+      "status": "passed"
+    },
+    {
+      "name": "calendar sans débordement à 390",
+      "status": "passed"
+    },
+    {
+      "name": "profile sans débordement à 390",
+      "status": "passed"
+    },
+    {
+      "name": "premium sans débordement à 390",
+      "status": "passed"
+    },
+    {
+      "name": "home sans débordement à 768",
+      "status": "passed"
+    },
+    {
+      "name": "program sans débordement à 768",
+      "status": "passed"
+    },
+    {
+      "name": "nutrition sans débordement à 768",
+      "status": "passed"
+    },
+    {
+      "name": "sleep sans débordement à 768",
+      "status": "passed"
+    },
+    {
+      "name": "health sans débordement à 768",
+      "status": "passed"
+    },
+    {
+      "name": "progress sans débordement à 768",
+      "status": "passed"
+    },
+    {
+      "name": "memories sans débordement à 768",
+      "status": "passed"
+    },
+    {
+      "name": "beforeafter sans débordement à 768",
+      "status": "passed"
+    },
+    {
+      "name": "coach sans débordement à 768",
+      "status": "passed"
+    },
+    {
+      "name": "calendar sans débordement à 768",
+      "status": "passed"
+    },
+    {
+      "name": "profile sans débordement à 768",
+      "status": "passed"
+    },
+    {
+      "name": "premium sans débordement à 768",
+      "status": "passed"
+    },
+    {
+      "name": "home sans débordement à 1280",
+      "status": "passed"
+    },
+    {
+      "name": "program sans débordement à 1280",
+      "status": "passed"
+    },
+    {
+      "name": "nutrition sans débordement à 1280",
+      "status": "passed"
+    },
+    {
+      "name": "sleep sans débordement à 1280",
+      "status": "passed"
+    },
+    {
+      "name": "health sans débordement à 1280",
+      "status": "passed"
+    },
+    {
+      "name": "progress sans débordement à 1280",
+      "status": "passed"
+    },
+    {
+      "name": "memories sans débordement à 1280",
+      "status": "passed"
+    },
+    {
+      "name": "beforeafter sans débordement à 1280",
+      "status": "passed"
+    },
+    {
+      "name": "coach sans débordement à 1280",
+      "status": "passed"
+    },
+    {
+      "name": "calendar sans débordement à 1280",
+      "status": "passed"
+    },
+    {
+      "name": "profile sans débordement à 1280",
+      "status": "passed"
+    },
+    {
+      "name": "premium sans débordement à 1280",
+      "status": "passed"
+    },
+    {
+      "name": "Accent, pas et pouls persistent au rechargement",
+      "status": "passed"
+    },
+    {
+      "name": "Les nouveaux relevés passent le validateur de sauvegarde",
+      "status": "passed"
+    },
+    {
+      "name": "Une sauvegarde avec pouls invalide est refusée",
+      "status": "passed"
+    },
+    {
+      "name": "Une sauvegarde avec pas fractionnaires est refusée",
+      "status": "passed"
+    },
+    {
+      "name": "Animations de chargement présentes",
+      "status": "passed"
+    },
+    {
+      "name": "Les compteurs terminent sur leurs valeurs",
+      "status": "passed"
+    },
+    {
+      "name": "Réduction des animations respectée",
+      "status": "passed"
+    },
+    {
+      "name": "Aucune exception JavaScript",
+      "status": "passed"
+    }
+  ],
+  "errors": []
+}

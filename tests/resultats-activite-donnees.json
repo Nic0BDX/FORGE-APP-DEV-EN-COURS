@@ -1,0 +1,131 @@
+{
+  "checkedAt": "2026-11-03T13:23:31.593Z",
+  "passed": 31,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "Defaults include separate activity targets",
+      "status": "passed"
+    },
+    {
+      "name": "Unknown activity remains null, while recorded exercise time is zero",
+      "status": "passed"
+    },
+    {
+      "name": "Old backups migrate without losing existing data",
+      "status": "passed"
+    },
+    {
+      "name": "Explicit zero is preserved as a known reading",
+      "status": "passed"
+    },
+    {
+      "name": "Today uses activity calories, independent of food calories",
+      "status": "passed"
+    },
+    {
+      "name": "Week sums only the seven-day range",
+      "status": "passed"
+    },
+    {
+      "name": "Month includes older known readings",
+      "status": "passed"
+    },
+    {
+      "name": "Valid activity round-trips through the backup validator",
+      "status": "passed"
+    },
+    {
+      "name": "Invalid activeCalories -1 is rejected",
+      "status": "passed"
+    },
+    {
+      "name": "Invalid activeCalories 30001 is rejected",
+      "status": "passed"
+    },
+    {
+      "name": "Invalid activeCalories null is rejected",
+      "status": "passed"
+    },
+    {
+      "name": "Invalid standHours 24.1 is rejected",
+      "status": "passed"
+    },
+    {
+      "name": "Invalid standHours \"10\" is rejected",
+      "status": "passed"
+    },
+    {
+      "name": "Invalid distanceKm 1001 is rejected",
+      "status": "passed"
+    },
+    {
+      "name": "Invalid floors 1.5 is rejected",
+      "status": "passed"
+    },
+    {
+      "name": "Invalid floors 10001 is rejected",
+      "status": "passed"
+    },
+    {
+      "name": "Invalid energy 100.5 is rejected",
+      "status": "passed"
+    },
+    {
+      "name": "Invalid recovery 101 is rejected",
+      "status": "passed"
+    },
+    {
+      "name": "Invalid or future date 2026-02-30 is rejected",
+      "status": "passed"
+    },
+    {
+      "name": "Invalid or future date 2026-11-04 is rejected",
+      "status": "passed"
+    },
+    {
+      "name": "Empty activity records are rejected",
+      "status": "passed"
+    },
+    {
+      "name": "Invalid target activityCalories is rejected",
+      "status": "passed"
+    },
+    {
+      "name": "Invalid target exerciseMinutes is rejected",
+      "status": "passed"
+    },
+    {
+      "name": "Invalid target standHours is rejected",
+      "status": "passed"
+    },
+    {
+      "name": "Old backups enable body motion by default",
+      "status": "passed"
+    },
+    {
+      "name": "Explicit body motion pause survives validation",
+      "status": "passed"
+    },
+    {
+      "name": "Body motion rejects nonboolean values",
+      "status": "passed"
+    },
+    {
+      "name": "Invalid form does not mutate memory or persistence",
+      "status": "passed"
+    },
+    {
+      "name": "Saving optional fields persists exactly the known values",
+      "status": "passed"
+    },
+    {
+      "name": "Write failure leaves the previous database intact",
+      "status": "passed"
+    },
+    {
+      "name": "Future form date is refused before writing",
+      "status": "passed"
+    }
+  ]
+}

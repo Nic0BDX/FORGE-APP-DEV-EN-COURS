@@ -41,7 +41,7 @@ md = [
     'Le chef de projet attribue et suit chaque tâche. Le designer édite les styles et assets ; le développeur les scripts applicatifs, le point d’entrée et les aperçus ; le testeur les tests et son rapport ; Contenu & idées les propositions éditoriales. Les propositions de textes vont au développeur avant intégration. Les fichiers d’avancement et les README relèvent du chef de projet. Aucune réécriture du projet ni changement de propriétaire de fichier sans coordination.', '',
     'Ordre Jour 1 : **P01 → P02 → (U01, C01) → (U02, D01, C02) → (D02, D03, D04) → (T02, T03) → P03**. T01 établit la situation de départ en parallèle. C04 prépare les idées du lendemain. Les retouches issues des tests reviennent au propriétaire du fichier.', '',
     'Priorités : **P0** = base utilisable et conservation des fonctions ; **P1** = fiabilité et finition ; **P2** = évolution de production ou idée à valider. D08–D10 et T06 nécessitent des services externes : ils ne conditionnent pas l’utilisation locale, mais restent ouverts dans cette feuille complète.', '',
-    '**Ordre courant :** P05 → D05 → D06 (Jour 2), puis T05 → D07 → U03 (Jour 3), puis C03 et V01 → V02 → V03 (Jour 4, demande vidéo) ; U04 et P04 restent à venir. Chaque clôture attend ses preuves de test avant le checkpoint.', '',
+    '**Ordre courant :** P05 → D05 → D06 (Jour 2), puis T05 → D07 → U03 (Jour 3), puis C03 et V01 → V02 (Jour 4, demande vidéo), puis A01 → A02 → A03 (accueil animé) ; V03 globale, U04 et P04 restent à venir. Chaque clôture attend ses preuves de test avant le checkpoint.', '',
     *u04_lines,
     '## Avancement par agent', '',
     '| Agent | Avancement | Terminées / total |', '|---|---|---:|'

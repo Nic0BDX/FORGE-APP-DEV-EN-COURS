@@ -319,3 +319,15 @@ Les 47 contrôles finaux testent notamment le clic au bord du label whey et l’
 - `docs/checkpoint.py`, `docs/build_progress.py` : respect de la pause demandée dans les documents générés.
 
 Les corrections éditoriales C03 déjà écrites sont incluses et passent les parcours de régression, mais la relecture finale complète reste à terminer. Voir `docs/AUDIT_CONTENU.md`.
+
+## Mission accueil animé — ajouts validés
+
+- `assets/images/forge-body.png` : corps original en transparence ; `forge-body-overlay.svg` : tracés des pectoraux et contours.
+- `js/features/home-video.js` : composition de l’accueil, calque inline, animation/pause, anneaux d’activité et carte des pas ; remplace seulement la présentation ciblée.
+- `css/home-video.css` : proportions de la vidéo, cartes, responsive, lumière pectorale et réduction d’animations.
+- `js/features/activity.js` : six relevés manuels facultatifs, formulaire, périodes et absence distincte de zéro.
+- `js/core/default-db.js` et `storage.js` : migration, bornes de validation et préférence d’animation.
+- `preview/demo-data.js` : démonstration isolée d’activité ; `build-standalone.py` : PNG embarqué et ordre déterministe des ressources.
+- `tests/activity-data.cjs`, `home-video-smoke.cjs`, rapports `resultats-accueil-*.json`, `resultats-activite-donnees.json` et `tests/captures-accueil/` : preuves de la mission.
+- `docs/PLAN_ACCUEIL_VIDEO.md`, `docs/BILAN_ACCUEIL.md`, `TESTS_ACCUEIL.md` : répartition, bilan et validation.
+- `LICENSE` : licence ajoutée sur GitHub par le propriétaire, conservée lors de la synchronisation.
